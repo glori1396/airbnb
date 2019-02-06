@@ -1,0 +1,35 @@
+
+.explore__cards {
+    margin: 1rem 0 2.3rem;
+    display: flex;
+    align-items: center;
+}
+
+.explore__cards__item {
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px;
+    border: 1px solid rgb(235, 235, 235);
+    flex-basis: 35%;
+    margin-right: 2rem;
+} 
+
+
+.explore__cards__item__image {
+    height: 5rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.img--house {
+    background-image: url('./Media/houses.jpg');
+}
+
+.img--gym {
+    background-image: url('./Media/gym.jpg');
+}
+
+.explore__cards__item__text {
+    padding: 0 0 0 1rem;
+    font-weight: bold;
+}

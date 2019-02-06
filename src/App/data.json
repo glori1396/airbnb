@@ -1,0 +1,389 @@
+{
+    "countries": [
+        {
+            "country": "France",
+            "id": 1
+        },
+        {
+            "country": "Italy",
+            "id": 2
+        },
+        {
+            "country": "Germany",
+            "id": 3
+        }
+    ],
+    "cities": [
+        {
+            "idCountry": 1,
+            "city": "Paris",
+            "id": 1
+        },
+        {
+            "idCountry": 1,
+            "city": "Cannes",
+            "id": 2
+        },
+        {
+            "idCountry": 2,
+            "city": "Rome",
+            "id": 3
+        },
+        {
+            "idCountry": 2,
+            "city": "Florence",
+            "id": 4
+        },
+        {
+            "idCountry": 3,
+            "city": "Berlin",
+            "id": 5
+        }
+    ],
+    "homes": [
+        {
+            "id": 1,
+            "idCountry": 1,
+            "idCity": 1,
+            "name": "Name 1",
+            "stars": 4,
+            "media": [
+                "https://news.infurma.es/wp-content/uploads/2017/12/LD_Opus_Tangram-Sandalo_12-1200x800_c.jpg",
+                "http://twinpalms-phuket.com/wp-content/uploads/2015/08/Grand-deluxe-lagoon-2.jpg",
+                "http://twinpalms-phuket.com/wp-content/uploads/2015/08/Grand-deluxe-lagoon-4.jpg"
+            ],
+            "price": 33,
+            "beds": 2,
+            "guests": 4,
+            "bedrooms": 2,
+            "bathrooms": 1.5,
+            "extras": [
+                "WIFI 24mbps",
+                "Free Luggage Storage",
+                "100% safe area at night",
+                "10 min to Paris Tower"
+            ]
+        },
+        {
+            "id": 2,
+            "idCountry": 1,
+            "idCity": 1,
+            "name": "Name 1",
+            "stars": 4,
+            "media": [
+                "https://q-ec.bstatic.com/images/hotel/max1024x768/524/52441205.jpg",
+                "http://twinpalms-phuket.com/wp-content/uploads/2015/08/Grand-Deluxe-Palm-1.jpg",
+                "http://twinpalms-phuket.com/wp-content/uploads/2015/08/DSC06629-Edit.jpg"
+            ],
+            "price": 33,
+            "beds": 2,
+            "guests": 4,
+            "bedrooms": 2,
+            "bathrooms": 1.5,
+            "extras": [
+                "WIFI 24mbps",
+                "Free Luggage Storage",
+                "100% safe area at night",
+                "10 min to Paris Tower"
+            ]
+        },
+        {
+            "id": 3,
+            "idCountry": 1,
+            "idCity": 1,
+            "name": "Name 1",
+            "stars": 4,
+            "media": [
+                "https://2486634c787a971a3554-d983ce57e4c84901daded0f67d5a004f.ssl.cf1.rackcdn.com/hotel-epik/media/cache/EPIK-Rooms-01-1_1-One-Twin-5a9f20fb27dc3-750x550.jpg",
+                "http://twinpalms-phuket.com/wp-content/uploads/2015/08/DSC02860-Edit.jpg",
+                "http://twinpalms-phuket.com/wp-content/uploads/2015/08/Deluxe-Lagoon7.jpg"
+            ],
+            "price": 33,
+            "beds": 2,
+            "guests": 4,
+            "bedrooms": 2,
+            "bathrooms": 1.5,
+            "extras": [
+                "WIFI 24mbps",
+                "Free Luggage Storage",
+                "100% safe area at night",
+                "10 min to Paris Tower"
+            ]
+        },
+        {
+            "id": 4,
+            "idCountry": 1,
+            "idCity": 1,
+            "name": "Name 1",
+            "stars": 4,
+            "media": [
+                "https://2486634c787a971a3554-d983ce57e4c84901daded0f67d5a004f.ssl.cf1.rackcdn.com/hotel-epik/media/cache/EPIK-Rooms-01-3_1-One-Queen-5a9f20c9d01ec-750x550.jpg",
+                "http://twinpalms-phuket.com/wp-content/uploads/2015/08/Deluxe-Lagoon-4.jpg"
+            ],
+            "price": 33,
+            "beds": 2,
+            "guests": 4,
+            "bedrooms": 2,
+            "bathrooms": 1.5,
+            "extras": [
+                "WIFI 24mbps",
+                "Free Luggage Storage",
+                "100% safe area at night",
+                "10 min to Paris Tower"
+            ]
+        },
+        {
+            "id": 5,
+            "idCountry": 1,
+            "idCity": 1,
+            "name": "Name 1",
+            "stars": 4,
+            "media": [
+                "https://2486634c787a971a3554-d983ce57e4c84901daded0f67d5a004f.ssl.cf1.rackcdn.com/hotel-epik/media/cache/EPIK-Rooms-01-5_1-King-Suite-5a9f2028ab87e-750x550.jpg",
+                "http://twinpalms-phuket.com/wp-content/uploads/2015/08/Deluxe-Palm-3.jpg",
+                "https://a0.muscache.com/im/pictures/57127848/e576cfbd_original.jpg?aki_policy=xx_large"
+            ],
+            "price": 33,
+            "beds": 2,
+            "guests": 4,
+            "bedrooms": 2,
+            "bathrooms": 1.5,
+            "extras": [
+                "WIFI 24mbps",
+                "Free Luggage Storage",
+                "100% safe area at night",
+                "10 min to Paris Tower"
+            ]
+        },
+        {
+            "id": 6,
+            "idCountry": 1,
+            "idCity": 2,
+            "name": "Name 1",
+            "stars": 4,
+            "media": [
+                "https://q-ec.bstatic.com/images/hotel/max1024x768/426/42651465.jpg",
+                "https://a0.muscache.com/im/pictures/b27dce7e-10ba-4657-aa6c-535550c666a6.jpg?aki_policy=large",
+                "https://a0.muscache.com/im/pictures/189fd10b-915c-4ac8-85b8-ddc37269f5fc.jpg?aki_policy=large"
+            ],
+            "price": 33,
+            "beds": 2,
+            "guests": 4,
+            "bedrooms": 2,
+            "bathrooms": 1.5,
+            "extras": [
+                "WIFI 24mbps",
+                "Free Luggage Storage",
+                "100% safe area at night",
+                "10 min to Paris Tower"
+            ]
+        },
+        {
+            "id": 7,
+            "idCountry": 1,
+            "idCity": 2,
+            "name": "Name 1",
+            "stars": 4,
+            "media": [
+                "https://www.fullertonhotels.com/uploads/9/8/1/8/98182264/courtyard-room-01-23-orig_1.jpeg",
+                "https://a0.muscache.com/im/pictures/57127939/1a337822_original.jpg?aki_policy=large",
+                "https://a0.muscache.com/im/pictures/49852b4b-18cc-4090-aa80-1c2739e4a808.jpg?aki_policy=large"
+            ],
+            "price": 33,
+            "beds": 2,
+            "guests": 4,
+            "bedrooms": 2,
+            "bathrooms": 1.5,
+            "extras": [
+                "WIFI 24mbps",
+                "Free Luggage Storage",
+                "100% safe area at night",
+                "10 min to Paris Tower"
+            ]
+        },
+        {
+            "id": 8,
+            "idCountry": 1,
+            "idCity": 2,
+            "name": "Name 1",
+            "stars": 4,
+            "media": [
+                "https://www.fullertonhotels.com/uploads/9/8/1/8/98182264/esplanade-room-01_2.jpeg",
+                "https://a0.muscache.com/im/pictures/4f4e9ad7-d72e-4880-b43e-d4ed3734b182.jpg?aki_policy=xx_large"
+            ],
+            "price": 33,
+            "beds": 2,
+            "guests": 4,
+            "bedrooms": 2,
+            "bathrooms": 1.5,
+            "extras": [
+                "WIFI 24mbps",
+                "Free Luggage Storage",
+                "100% safe area at night",
+                "10 min to Paris Tower"
+            ]
+        },
+        {
+            "id": 9,
+            "idCountry": 1,
+            "idCity": 2,
+            "name": "Name 1",
+            "stars": 4,
+            "media": [
+                "https://www.fullertonhotels.com/uploads/9/8/1/8/98182264/palladian-suite-living-room-the-fullerton-hotel-singapore_3.jpeg",
+                "https://a0.muscache.com/im/pictures/514cce53-2a73-4dc8-8246-004227c9aa6c.jpg?aki_policy=large",
+                "https://a0.muscache.com/im/pictures/92aaf769-984f-41c0-a7b8-1ab350848355.jpg?aki_policy=large"
+            ],
+            "price": 33,
+            "beds": 2,
+            "guests": 4,
+            "bedrooms": 2,
+            "bathrooms": 1.5,
+            "extras": [
+                "WIFI 24mbps",
+                "Free Luggage Storage",
+                "100% safe area at night",
+                "10 min to Paris Tower"
+            ]
+        },
+        {
+            "id": 10,
+            "idCountry": 2,
+            "idCity": 3,
+            "name": "Name 1",
+            "stars": 4,
+            "media": [
+                "https://www.fullertonhotels.com/uploads/9/8/1/8/98182264/governor-suite-bedroom-the-fullerton-hotel-singapore-orig_3.jpg",
+                "https://a0.muscache.com/im/pictures/b883a1ec-b181-4386-8169-891cdcc243cf.jpg?aki_policy=large",
+                "https://a0.muscache.com/im/pictures/60999815/316e63ca_original.jpg?aki_policy=xx_large"
+            ],
+            "price": 33,
+            "beds": 2,
+            "guests": 4,
+            "bedrooms": 2,
+            "bathrooms": 1.5,
+            "extras": [
+                "WIFI 24mbps",
+                "Free Luggage Storage",
+                "100% safe area at night",
+                "10 min to Paris Tower"
+            ]
+        },
+        {
+            "id": 11,
+            "idCountry": 2,
+            "idCity": 3,
+            "name": "Name 1",
+            "stars": 4,
+            "media": [
+                "https://a0.muscache.com/im/pictures/61000205/09cd834f_original.jpg?aki_policy=large",
+                "https://a0.muscache.com/im/pictures/60999979/f19cbeb3_original.jpg?aki_policy=large",
+                "https://a0.muscache.com/im/pictures/61000026/a0249fd1_original.jpg?aki_policy=large"
+            ],
+            "price": 33,
+            "beds": 2,
+            "guests": 4,
+            "bedrooms": 2,
+            "bathrooms": 1.5,
+            "extras": [
+                "WIFI 24mbps",
+                "Free Luggage Storage",
+                "100% safe area at night",
+                "10 min to Paris Tower"
+            ]
+        },
+        {
+            "id": 12,
+            "idCountry": 2,
+            "idCity": 3,
+            "name": "Name 1",
+            "stars": 4,
+            "media": [
+                "https://www.fullertonhotels.com/uploads/9/8/1/8/98182264/presidential-suite-living-room-the-fullerton-hotel-singapore-1-orig_3.jpg",
+                "https://a0.muscache.com/im/pictures/61000076/0a548a37_original.jpg?aki_policy=large"
+            ],
+            "price": 33,
+            "beds": 2,
+            "guests": 4,
+            "bedrooms": 2,
+            "bathrooms": 1.5,
+            "extras": [
+                "WIFI 24mbps",
+                "Free Luggage Storage",
+                "100% safe area at night",
+                "10 min to Paris Tower"
+            ]
+        },
+        {
+            "id": 13,
+            "idCountry": 2,
+            "idCity": 4,
+            "name": "Name 1",
+            "stars": 4,
+            "media": [
+                "https://a0.muscache.com/im/pictures/96337480/64fe7425_original.jpg?aki_policy=xx_large",
+                "https://a0.muscache.com/im/pictures/96337882/6770050c_original.jpg?aki_policy=large",
+                "https://a0.muscache.com/im/pictures/49404980/dc77606f_original.jpg?aki_policy=large"
+            ],
+            "price": 33,
+            "beds": 2,
+            "guests": 4,
+            "bedrooms": 2,
+            "bathrooms": 1.5,
+            "extras": [
+                "WIFI 24mbps",
+                "Free Luggage Storage",
+                "100% safe area at night",
+                "10 min to Paris Tower"
+            ]
+        },
+        {
+            "id": 14,
+            "idCountry": 2,
+            "idCity": 4,
+            "name": "Name 1",
+            "stars": 4,
+            "media": [
+                "https://a0.muscache.com/im/pictures/95606daa-5bb6-47e2-8e56-de0bee5a6d34.jpg?aki_policy=xx_large",
+                "https://a0.muscache.com/im/pictures/17fb2eb8-504d-46ff-b212-f2e22cbae541.jpg?aki_policy=large",
+                "https://a0.muscache.com/im/pictures/0930e881-aff9-41a8-b03b-f557df920474.jpg?aki_policy=large"
+            ],
+            "price": 33,
+            "beds": 2,
+            "guests": 4,
+            "bedrooms": 2,
+            "bathrooms": 1.5,
+            "extras": [
+                "WIFI 24mbps",
+                "Free Luggage Storage",
+                "100% safe area at night",
+                "10 min to Paris Tower"
+            ]
+        },
+        {
+            "id": 15,
+            "idCountry": 3,
+            "idCity": 5,
+            "name": "Name 1",
+            "stars": 4,
+            "media": [
+                "https://a0.muscache.com/im/pictures/25ff1d50-7823-4240-b323-a1f39c7f8178.jpg?aki_policy=xx_large",
+                "https://a0.muscache.com/im/pictures/0aab8e6a-5760-4d92-a7f1-b7c0b3853253.jpg?aki_policy=large",
+                "https://a0.muscache.com/im/pictures/5a5efb56-a86b-4a73-a8e2-c4e5b6e470e8.jpg?aki_policy=large",
+                "https://a0.muscache.com/im/pictures/92336153-6c7e-4b91-a13b-15f884768eb8.jpg?aki_policy=large"
+            ],
+            "price": 33,
+            "beds": 2,
+            "guests": 4,
+            "bedrooms": 2,
+            "bathrooms": 1.5,
+            "extras": [
+                "WIFI 24mbps",
+                "Free Luggage Storage",
+                "100% safe area at night",
+                "10 min to Paris Tower"
+            ]
+        }
+    ],
+    "Gyms": []
+}
