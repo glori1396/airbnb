@@ -40,12 +40,28 @@
             "id": 5
         }
     ],
+    "owners": [
+        {
+            "id": 1,
+            "name": "Luke Armstrong",
+            "direction": "England, United Kingdom",
+            "joined": "August 2017",
+            "description": "Hi I’m Luke. I design footwear. My favourite colour is red and I like the idea of having a Yorkshire terrier but I’ve never got round to sorting that out.",
+            "languages": [
+                "English, French, Spanish"
+            ],
+            "response": "100%",
+            "time": "within an hour"
+        }
+    ],
     "homes": [
         {
             "id": 1,
+            "idOwner": 1,
             "idCountry": 1,
             "idCity": 1,
             "name": "Name 1",
+            "description": "Good sized, basic double room in a 3 bed 'Shared' flat situated in the heart of Holborn, East Central London. The flat comprises of a fitted kitchen and a shared bathroom.",
             "stars": 4,
             "media": [
                 "https://news.infurma.es/wp-content/uploads/2017/12/LD_Opus_Tangram-Sandalo_12-1200x800_c.jpg",
@@ -58,15 +74,37 @@
             "bedrooms": 2,
             "bathrooms": 1.5,
             "extras": [
-                "WIFI 24mbps",
-                "Free Luggage Storage",
-                "100% safe area at night",
-                "10 min to Paris Tower"
+                [
+                    {
+                        "icon": "faWifi",
+                        "value": "Wireless Internet"
+                    },
+                    {
+                        "icon": "faUtensils",
+                        "value": "Kitchen"
+                    },
+                    {
+                        "icon": "faWind",
+                        "value": "Dryer"
+                    },
+                    {
+                        "icon": "faLaptop",
+                        "value": "Laptop friendly workspace"
+                    }
+                ],
+                [
+                    "WIFI 24mbps",
+                    "Free Luggage Storage",
+                    "100% safe area at night",
+                    "10 min to Paris Tower"
+                ]
             ]
         },
         {
             "id": 2,
+            "idOwner": 1,
             "idCountry": 1,
+            "description": "Good sized, basic double room in a 3 bed 'Shared' flat situated in the heart of Holborn, East Central London. The flat comprises of a fitted kitchen and a shared bathroom.",
             "idCity": 1,
             "name": "Name 1",
             "stars": 4,
@@ -81,16 +119,38 @@
             "bedrooms": 2,
             "bathrooms": 1.5,
             "extras": [
-                "WIFI 24mbps",
-                "Free Luggage Storage",
-                "100% safe area at night",
-                "10 min to Paris Tower"
+                [
+                    {
+                        "icon": "faWifi",
+                        "value": "Wireless Internet"
+                    },
+                    {
+                        "icon": "faUtensils",
+                        "value": "Kitchen"
+                    },
+                    {
+                        "icon": "faWind",
+                        "value": "Dryer"
+                    },
+                    {
+                        "icon": "faLaptop",
+                        "value": "Laptop friendly workspace"
+                    }
+                ],
+                [
+                    "WIFI 24mbps",
+                    "Free Luggage Storage",
+                    "100% safe area at night",
+                    "10 min to Paris Tower"
+                ]
             ]
         },
         {
             "id": 3,
+            "idOwner": 1,
             "idCountry": 1,
             "idCity": 1,
+            "description": "Good sized, basic double room in a 3 bed 'Shared' flat situated in the heart of Holborn, East Central London. The flat comprises of a fitted kitchen and a shared bathroom.",
             "name": "Name 1",
             "stars": 4,
             "media": [
@@ -104,16 +164,38 @@
             "bedrooms": 2,
             "bathrooms": 1.5,
             "extras": [
-                "WIFI 24mbps",
-                "Free Luggage Storage",
-                "100% safe area at night",
-                "10 min to Paris Tower"
+                [
+                    {
+                        "icon": "faWifi",
+                        "value": "Wireless Internet"
+                    },
+                    {
+                        "icon": "faUtensils",
+                        "value": "Kitchen"
+                    },
+                    {
+                        "icon": "faWind",
+                        "value": "Dryer"
+                    },
+                    {
+                        "icon": "faLaptop",
+                        "value": "Laptop friendly workspace"
+                    }
+                ],
+                [
+                    "WIFI 24mbps",
+                    "Free Luggage Storage",
+                    "100% safe area at night",
+                    "10 min to Paris Tower"
+                ]
             ]
         },
         {
             "id": 4,
+            "idOwner": 1,
             "idCountry": 1,
             "idCity": 1,
+            "description": "Good sized, basic double room in a 3 bed 'Shared' flat situated in the heart of Holborn, East Central London. The flat comprises of a fitted kitchen and a shared bathroom.",
             "name": "Name 1",
             "stars": 4,
             "media": [
@@ -126,15 +208,37 @@
             "bedrooms": 2,
             "bathrooms": 1.5,
             "extras": [
-                "WIFI 24mbps",
-                "Free Luggage Storage",
-                "100% safe area at night",
-                "10 min to Paris Tower"
+                [
+                    {
+                        "icon": "faWifi",
+                        "value": "Wireless Internet"
+                    },
+                    {
+                        "icon": "faUtensils",
+                        "value": "Kitchen"
+                    },
+                    {
+                        "icon": "faWind",
+                        "value": "Dryer"
+                    },
+                    {
+                        "icon": "faLaptop",
+                        "value": "Laptop friendly workspace"
+                    }
+                ],
+                [
+                    "WIFI 24mbps",
+                    "Free Luggage Storage",
+                    "100% safe area at night",
+                    "10 min to Paris Tower"
+                ]
             ]
         },
         {
             "id": 5,
+            "idOwner": 1,
             "idCountry": 1,
+            "description": "Good sized, basic double room in a 3 bed 'Shared' flat situated in the heart of Holborn, East Central London. The flat comprises of a fitted kitchen and a shared bathroom.",
             "idCity": 1,
             "name": "Name 1",
             "stars": 4,
@@ -149,16 +253,38 @@
             "bedrooms": 2,
             "bathrooms": 1.5,
             "extras": [
-                "WIFI 24mbps",
-                "Free Luggage Storage",
-                "100% safe area at night",
-                "10 min to Paris Tower"
+                [
+                    {
+                        "icon": "faWifi",
+                        "value": "Wireless Internet"
+                    },
+                    {
+                        "icon": "faUtensils",
+                        "value": "Kitchen"
+                    },
+                    {
+                        "icon": "faWind",
+                        "value": "Dryer"
+                    },
+                    {
+                        "icon": "faLaptop",
+                        "value": "Laptop friendly workspace"
+                    }
+                ],
+                [
+                    "WIFI 24mbps",
+                    "Free Luggage Storage",
+                    "100% safe area at night",
+                    "10 min to Paris Tower"
+                ]
             ]
         },
         {
             "id": 6,
+            "idOwner": 1,
             "idCountry": 1,
             "idCity": 2,
+            "description": "Good sized, basic double room in a 3 bed 'Shared' flat situated in the heart of Holborn, East Central London. The flat comprises of a fitted kitchen and a shared bathroom.",
             "name": "Name 1",
             "stars": 4,
             "media": [
@@ -172,16 +298,38 @@
             "bedrooms": 2,
             "bathrooms": 1.5,
             "extras": [
-                "WIFI 24mbps",
-                "Free Luggage Storage",
-                "100% safe area at night",
-                "10 min to Paris Tower"
+                [
+                    {
+                        "icon": "faWifi",
+                        "value": "Wireless Internet"
+                    },
+                    {
+                        "icon": "faUtensils",
+                        "value": "Kitchen"
+                    },
+                    {
+                        "icon": "faWind",
+                        "value": "Dryer"
+                    },
+                    {
+                        "icon": "faLaptop",
+                        "value": "Laptop friendly workspace"
+                    }
+                ],
+                [
+                    "WIFI 24mbps",
+                    "Free Luggage Storage",
+                    "100% safe area at night",
+                    "10 min to Paris Tower"
+                ]
             ]
         },
         {
             "id": 7,
+            "idOwner": 1,
             "idCountry": 1,
             "idCity": 2,
+            "description": "Good sized, basic double room in a 3 bed 'Shared' flat situated in the heart of Holborn, East Central London. The flat comprises of a fitted kitchen and a shared bathroom.",
             "name": "Name 1",
             "stars": 4,
             "media": [
@@ -195,15 +343,37 @@
             "bedrooms": 2,
             "bathrooms": 1.5,
             "extras": [
-                "WIFI 24mbps",
-                "Free Luggage Storage",
-                "100% safe area at night",
-                "10 min to Paris Tower"
+                [
+                    {
+                        "icon": "faWifi",
+                        "value": "Wireless Internet"
+                    },
+                    {
+                        "icon": "faUtensils",
+                        "value": "Kitchen"
+                    },
+                    {
+                        "icon": "faWind",
+                        "value": "Dryer"
+                    },
+                    {
+                        "icon": "faLaptop",
+                        "value": "Laptop friendly workspace"
+                    }
+                ],
+                [
+                    "WIFI 24mbps",
+                    "Free Luggage Storage",
+                    "100% safe area at night",
+                    "10 min to Paris Tower"
+                ]
             ]
         },
         {
             "id": 8,
+            "idOwner": 1,
             "idCountry": 1,
+            "description": "Good sized, basic double room in a 3 bed 'Shared' flat situated in the heart of Holborn, East Central London. The flat comprises of a fitted kitchen and a shared bathroom.",
             "idCity": 2,
             "name": "Name 1",
             "stars": 4,
@@ -217,16 +387,38 @@
             "bedrooms": 2,
             "bathrooms": 1.5,
             "extras": [
-                "WIFI 24mbps",
-                "Free Luggage Storage",
-                "100% safe area at night",
-                "10 min to Paris Tower"
+                [
+                    {
+                        "icon": "faWifi",
+                        "value": "Wireless Internet"
+                    },
+                    {
+                        "icon": "faUtensils",
+                        "value": "Kitchen"
+                    },
+                    {
+                        "icon": "faWind",
+                        "value": "Dryer"
+                    },
+                    {
+                        "icon": "faLaptop",
+                        "value": "Laptop friendly workspace"
+                    }
+                ],
+                [
+                    "WIFI 24mbps",
+                    "Free Luggage Storage",
+                    "100% safe area at night",
+                    "10 min to Paris Tower"
+                ]
             ]
         },
         {
             "id": 9,
+            "idOwner": 1,
             "idCountry": 1,
             "idCity": 2,
+            "description": "Good sized, basic double room in a 3 bed 'Shared' flat situated in the heart of Holborn, East Central London. The flat comprises of a fitted kitchen and a shared bathroom.",
             "name": "Name 1",
             "stars": 4,
             "media": [
@@ -240,16 +432,38 @@
             "bedrooms": 2,
             "bathrooms": 1.5,
             "extras": [
-                "WIFI 24mbps",
-                "Free Luggage Storage",
-                "100% safe area at night",
-                "10 min to Paris Tower"
+                [
+                    {
+                        "icon": "faWifi",
+                        "value": "Wireless Internet"
+                    },
+                    {
+                        "icon": "faUtensils",
+                        "value": "Kitchen"
+                    },
+                    {
+                        "icon": "faWind",
+                        "value": "Dryer"
+                    },
+                    {
+                        "icon": "faLaptop",
+                        "value": "Laptop friendly workspace"
+                    }
+                ],
+                [
+                    "WIFI 24mbps",
+                    "Free Luggage Storage",
+                    "100% safe area at night",
+                    "10 min to Paris Tower"
+                ]
             ]
         },
         {
             "id": 10,
+            "idOwner": 1,
             "idCountry": 2,
             "idCity": 3,
+            "description": "Good sized, basic double room in a 3 bed 'Shared' flat situated in the heart of Holborn, East Central London. The flat comprises of a fitted kitchen and a shared bathroom.",
             "name": "Name 1",
             "stars": 4,
             "media": [
@@ -263,15 +477,37 @@
             "bedrooms": 2,
             "bathrooms": 1.5,
             "extras": [
-                "WIFI 24mbps",
-                "Free Luggage Storage",
-                "100% safe area at night",
-                "10 min to Paris Tower"
+                [
+                    {
+                        "icon": "faWifi",
+                        "value": "Wireless Internet"
+                    },
+                    {
+                        "icon": "faUtensils",
+                        "value": "Kitchen"
+                    },
+                    {
+                        "icon": "faWind",
+                        "value": "Dryer"
+                    },
+                    {
+                        "icon": "faLaptop",
+                        "value": "Laptop friendly workspace"
+                    }
+                ],
+                [
+                    "WIFI 24mbps",
+                    "Free Luggage Storage",
+                    "100% safe area at night",
+                    "10 min to Paris Tower"
+                ]
             ]
         },
         {
             "id": 11,
+            "idOwner": 1,
             "idCountry": 2,
+            "description": "Good sized, basic double room in a 3 bed 'Shared' flat situated in the heart of Holborn, East Central London. The flat comprises of a fitted kitchen and a shared bathroom.",
             "idCity": 3,
             "name": "Name 1",
             "stars": 4,
@@ -286,15 +522,37 @@
             "bedrooms": 2,
             "bathrooms": 1.5,
             "extras": [
-                "WIFI 24mbps",
-                "Free Luggage Storage",
-                "100% safe area at night",
-                "10 min to Paris Tower"
+                [
+                    {
+                        "icon": "faWifi",
+                        "value": "Wireless Internet"
+                    },
+                    {
+                        "icon": "faUtensils",
+                        "value": "Kitchen"
+                    },
+                    {
+                        "icon": "faWind",
+                        "value": "Dryer"
+                    },
+                    {
+                        "icon": "faLaptop",
+                        "value": "Laptop friendly workspace"
+                    }
+                ],
+                [
+                    "WIFI 24mbps",
+                    "Free Luggage Storage",
+                    "100% safe area at night",
+                    "10 min to Paris Tower"
+                ]
             ]
         },
         {
             "id": 12,
+            "idOwner": 1,
             "idCountry": 2,
+            "description": "Good sized, basic double room in a 3 bed 'Shared' flat situated in the heart of Holborn, East Central London. The flat comprises of a fitted kitchen and a shared bathroom.",
             "idCity": 3,
             "name": "Name 1",
             "stars": 4,
@@ -308,15 +566,37 @@
             "bedrooms": 2,
             "bathrooms": 1.5,
             "extras": [
-                "WIFI 24mbps",
-                "Free Luggage Storage",
-                "100% safe area at night",
-                "10 min to Paris Tower"
+                [
+                    {
+                        "icon": "faWifi",
+                        "value": "Wireless Internet"
+                    },
+                    {
+                        "icon": "faUtensils",
+                        "value": "Kitchen"
+                    },
+                    {
+                        "icon": "faWind",
+                        "value": "Dryer"
+                    },
+                    {
+                        "icon": "faLaptop",
+                        "value": "Laptop friendly workspace"
+                    }
+                ],
+                [
+                    "WIFI 24mbps",
+                    "Free Luggage Storage",
+                    "100% safe area at night",
+                    "10 min to Paris Tower"
+                ]
             ]
         },
         {
             "id": 13,
+            "idOwner": 1,
             "idCountry": 2,
+            "description": "Good sized, basic double room in a 3 bed 'Shared' flat situated in the heart of Holborn, East Central London. The flat comprises of a fitted kitchen and a shared bathroom.",
             "idCity": 4,
             "name": "Name 1",
             "stars": 4,
@@ -331,16 +611,38 @@
             "bedrooms": 2,
             "bathrooms": 1.5,
             "extras": [
-                "WIFI 24mbps",
-                "Free Luggage Storage",
-                "100% safe area at night",
-                "10 min to Paris Tower"
+                [
+                    {
+                        "icon": "faWifi",
+                        "value": "Wireless Internet"
+                    },
+                    {
+                        "icon": "faUtensils",
+                        "value": "Kitchen"
+                    },
+                    {
+                        "icon": "faWind",
+                        "value": "Dryer"
+                    },
+                    {
+                        "icon": "faLaptop",
+                        "value": "Laptop friendly workspace"
+                    }
+                ],
+                [
+                    "WIFI 24mbps",
+                    "Free Luggage Storage",
+                    "100% safe area at night",
+                    "10 min to Paris Tower"
+                ]
             ]
         },
         {
             "id": 14,
+            "idOwner": 1,
             "idCountry": 2,
             "idCity": 4,
+            "description": "Good sized, basic double room in a 3 bed 'Shared' flat situated in the heart of Holborn, East Central London. The flat comprises of a fitted kitchen and a shared bathroom.",
             "name": "Name 1",
             "stars": 4,
             "media": [
@@ -354,16 +656,38 @@
             "bedrooms": 2,
             "bathrooms": 1.5,
             "extras": [
-                "WIFI 24mbps",
-                "Free Luggage Storage",
-                "100% safe area at night",
-                "10 min to Paris Tower"
+                [
+                    {
+                        "icon": "faWifi",
+                        "value": "Wireless Internet"
+                    },
+                    {
+                        "icon": "faUtensils",
+                        "value": "Kitchen"
+                    },
+                    {
+                        "icon": "faWind",
+                        "value": "Dryer"
+                    },
+                    {
+                        "icon": "faLaptop",
+                        "value": "Laptop friendly workspace"
+                    }
+                ],
+                [
+                    "WIFI 24mbps",
+                    "Free Luggage Storage",
+                    "100% safe area at night",
+                    "10 min to Paris Tower"
+                ]
             ]
         },
         {
             "id": 15,
+            "idOwner": 1,
             "idCountry": 3,
             "idCity": 5,
+            "description": "Good sized, basic double room in a 3 bed 'Shared' flat situated in the heart of Holborn, East Central London. The flat comprises of a fitted kitchen and a shared bathroom.",
             "name": "Name 1",
             "stars": 4,
             "media": [
@@ -378,10 +702,30 @@
             "bedrooms": 2,
             "bathrooms": 1.5,
             "extras": [
-                "WIFI 24mbps",
-                "Free Luggage Storage",
-                "100% safe area at night",
-                "10 min to Paris Tower"
+                [
+                    {
+                        "icon": "faWifi",
+                        "value": "Wireless Internet"
+                    },
+                    {
+                        "icon": "faUtensils",
+                        "value": "Kitchen"
+                    },
+                    {
+                        "icon": "faWind",
+                        "value": "Dryer"
+                    },
+                    {
+                        "icon": "faLaptop",
+                        "value": "Laptop friendly workspace"
+                    }
+                ],
+                [
+                    "WIFI 24mbps",
+                    "Free Luggage Storage",
+                    "100% safe area at night",
+                    "10 min to Paris Tower"
+                ]
             ]
         }
     ],

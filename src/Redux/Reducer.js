@@ -2,7 +2,7 @@ import * as Redux from 'redux';
 
 import data from '../App/data.json';
 
-export function reducer(state = { countries: data.countries, cities: data.cities, homes: data.homes, gyms: data.gyms }, action) {
+export function reducer(state = { countries: data.countries, owners: data.owners, cities: data.cities, homes: data.homes, gyms: data.gyms }, action) {
     switch (action.type) {
         case 'LOGIN':
             sessionStorage.setItem("customer", action.customer)
