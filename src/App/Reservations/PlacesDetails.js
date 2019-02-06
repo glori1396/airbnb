@@ -54,7 +54,7 @@ class PlaceDetails extends Component {
                         </div>
                     </div>
                     <div className="details__reservation">
-                        <ForReservation reservation={reservation} />
+                        <ForReservation reservation={reservation} onLogin={this.handleLogin} />
                     </div>
                 </div>
             </div>

@@ -28,12 +28,17 @@ class ForReservation extends Component {
         }
     }
 
+    handleSubmit = (event) => {
+        event.preventDefault();
+        this.props.onLogin();
+    }
+
     render() {
         const reservation = this.props.reservation;
         return (
             <div className="reservation">
                 <h4>$ {reservation.price} per night</h4>
-                <form className="reservation__form">
+                <form className="reservation__form" onSubmit={() => this.props.handleSubmit()}>
                     <label>Dates</label>
                     <div className="form--inline">
                         <input className="form--margin form__date" type="date" />
