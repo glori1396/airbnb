@@ -7,7 +7,6 @@ import Amenities from './Amenities';
 import Owner from './Owner';
 import ForReservation from './ForReservation'
 
-
 class PlaceDetails extends Component {
 
     constructor() {
@@ -26,7 +25,6 @@ class PlaceDetails extends Component {
         this.setState({ city: city.city, country: country.country })
     }
 
-
     render() {
         const reservation = this.props.homes.find(home => home.id === parseInt(this.props.match.params.idPlace));
         const owner = this.props.owners.find(owner => owner.id === reservation.idOwner);
@@ -39,13 +37,13 @@ class PlaceDetails extends Component {
                         <div className="details--borderbottom">
                             <h1>{reservation.name}</h1>
                             <p>Greater {this.state.city}, {this.state.country}</p>
-                            <ul>
-                                <li>{reservation.guests} guests</li>
-                                <li>{reservation.bedrooms} bedrooms</li>
-                                <li>{reservation.beds} beds</li>
+                            <ul className="details__list">
+                                <li className="details__list__element">{reservation.guests} guests</li>
+                                <li className="details__list__element">{reservation.bedrooms} bedrooms</li>
+                                <li className="details__list__element">{reservation.beds} beds</li>
                                 <li>{reservation.bathrooms} bathrooms</li>
                             </ul>
-                            <StarRatingComponent name="star" starCount={5} value={reservation.stars} starColor={'rgb(61, 162, 196)'} emptyStarColor={'rgb(168, 168, 168)'} />
+                            <StarRatingComponent className="details__rating" name="star" starCount={5} value={reservation.stars} starColor={'rgb(61, 162, 196)'} emptyStarColor={'rgb(168, 168, 168)'} />
                             <p>{reservation.description}</p>
                         </div>
                         <div className="details--borderbottom">

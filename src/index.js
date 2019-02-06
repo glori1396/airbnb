@@ -5,8 +5,8 @@ import * as serviceWorker from './serviceWorker';
 import * as ReactRedux from 'react-redux';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { store } from './Redux/Reducer'
-import Homes from './App/Places/Homes'
 import Explore from './App/Explore/Explore'
+import Login from './App/Login'
 
 import Root from './App/Root.js'
 
@@ -18,6 +18,7 @@ ReactDOM.render(
                     <Switch>
                         <Route exact path="/" component={Explore} />
                         <Route path="/h" component={App} />
+                        <Route path="/login" component={Login} />
                     </Switch>
                 </Root>
             </React.Fragment>

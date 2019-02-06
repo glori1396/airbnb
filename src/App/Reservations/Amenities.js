@@ -18,7 +18,7 @@ class Amenities extends Component {
     }
 
     handleMore = (extras) => {
-        return extras.map(obj => <li>{obj}</li>)
+        return extras.map(obj => <li className="list__item">{obj}</li>)
     }
 
     render() {
@@ -27,11 +27,15 @@ class Amenities extends Component {
         let extras = this.props.extras[1];
         return (
             <div className="amenities">
-                {icons.map(obj => <div><FontAwesomeIcon className="amenities__icon" icon={iconsj[obj.icon]} key={uuidv1()} /> {obj.value}</div>)}
-                <button onClick={this.handleClick}>See more</button>
-                {this.state.isClicked ? <ul>{this.handleMore(extras)}</ul> : null}
+                <h3>Amenities</h3>
+                <div className="amenities__icons">
+                    {icons.map(obj => <div className="amenities__icon"><FontAwesomeIcon className="fontawesome" icon={iconsj[obj.icon]} key={uuidv1()} /> <p>{obj.value}</p></div>)}
+                </div>
+                <button className="amenities__button" onClick={this.handleClick}>{this.state.isClicked ? "See less" : "See more"}</button>
+                {this.state.isClicked ? <ul className="amenities__list">{this.handleMore(extras)}</ul> : null}
             </div>
         );
     }
 }
+
 export default (Amenities);
