@@ -6,6 +6,8 @@ import StarRatingComponent from 'react-star-rating-component';
 import Amenities from './Amenities';
 import Owner from './Owner';
 import ForReservation from './ForReservation'
+import MyReservation from './MyReservation'
+import ModalLoginSignup from '../Login/ModalLoginSignup'
 
 class PlaceDetails extends Component {
 
@@ -14,8 +16,13 @@ class PlaceDetails extends Component {
         this.state = {
             city: "",
             country: "",
-            reservation: {}
+            reservation: {},
+            onLoginClick: true
         }
+    }
+
+    handleLogin = () => {
+        this.setState({ onLoginClick: !this.state.onLoginClick })
     }
 
     componentDidMount() {
@@ -25,10 +32,24 @@ class PlaceDetails extends Component {
         this.setState({ city: city.city, country: country.country })
     }
 
+    handleReservation = () => {
+        if (!this.props.currentUser) {
+            return !this.state.onLoginClick ? <ModalLoginSignup onLogin={this.handleLogin} /> : null
+        }
+    }
+
+    handleMyReservation = (reservation) => {
+        if (this.props.currentUser) {
+            const result = this.props.currentUser.reservations.find(obj => obj.id === reservation.id);
+            if (result) return <MyReservation reservation={result} />
+        }
+        return <ForReservation reservation={reservation} onLogin={this.handleLogin} />
+
+    }
+
     render() {
         const reservation = this.props.homes.find(home => home.id === parseInt(this.props.match.params.idPlace));
         const owner = this.props.owners.find(owner => owner.id === reservation.idOwner);
-
         return (
             <div className="details">
                 <Carousel media={reservation.media} />
@@ -54,9 +75,10 @@ class PlaceDetails extends Component {
                         </div>
                     </div>
                     <div className="details__reservation">
-                        <ForReservation reservation={reservation} onLogin={this.handleLogin} />
+                        {this.handleMyReservation(reservation)}
                     </div>
                 </div>
+                {this.handleReservation()}
             </div>
         );
     }
@@ -67,16 +89,14 @@ const mapStateToProps = (state) => {
         countries: state.countries,
         cities: state.cities,
         homes: state.homes,
-        owners: state.owners
+        owners: state.owners,
+        currentUser: state.currentUser,
+        users: state.users
     };
 }
 
 const mapDispatchToProps = (dispatch) => {
-    return {
-        onRandomPlaces: () => {
-            dispatch({ type: 'LOGOUT' })
-        }
-    };
+    return {};
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(PlaceDetails);

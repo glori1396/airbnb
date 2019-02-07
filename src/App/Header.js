@@ -6,30 +6,26 @@ import './main.scss';
 class Header extends Component {
 
     handleMenu = () => {
-        if (this.props.isLogin) {
+        if (!this.props.currentUser) {
             return (
                 <ul className="navBar__menu">
-                    <li><Link to='/signup' className="navBar__menu__item">Sign up</Link></li>
-                    <li><Link to='/login' className="navBar__menu__item">Log in</Link></li>
+                    <li><Link to='/' className="navBar__menu__item">Log in</Link></li>
                 </ul>
             )
         } else {
             return (
                 <ul className="navBar__menu">
-                    <li><Link to='/' className="navBar__menu__item" onClick={this.handleLogout}>Logout</Link></li>
+                    <li className="navBar__menu__item" onClick={this.props.onLogout}>{this.props.currentUser.name} Log out</li>
                 </ul >
             )
         }
     }
 
-    handleLogout = () => {
-        this.props.onlogout();
-    }
-
     handleSubmit = (event) => {
         event.preventDefault();
-        console.log("holiiii dio al enter")
+        console.log("Search result")
     }
+
     render() {
         return (
             <div className="header">
@@ -53,7 +49,7 @@ class Header extends Component {
 
 const mapStateToProps = (state) => {
     return {
-        customer: state.customer
+        currentUser: state.currentUser
     };
 }
 

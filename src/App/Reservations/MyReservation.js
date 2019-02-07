@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import './reservation.scss';
 
-class ForReservation extends Component {
+class MyReservation extends Component {
 
     constructor() {
         super()
@@ -12,6 +12,14 @@ class ForReservation extends Component {
             guests: 1,
             error: ""
         }
+    }
+
+    componentDidMount() {
+        this.setState({
+            checkin: this.props.reservation.checkin,
+            checkout: this.props.reservation.checkout,
+            guests: this.props.reservation.guests
+        })
     }
 
     handleChangeInitialDate = (event) => {
@@ -37,29 +45,25 @@ class ForReservation extends Component {
 
     handleSubmit = (event) => {
         event.preventDefault();
-        if (!this.props.currentUser) {
-            this.props.onLogin();
+        if (!this.props.currentUser) this.props.onLogin();
+        if (this.state.checkin === "" || this.state.checkout === "") {
+            this.setState({ error: "Choose your dates" })
         } else {
-            if (this.state.checkin === "" || this.state.checkout === "") {
-                this.setState({ error: "Choose your dates" })
-            } else {
-                this.props.onNewReservation(this.props.reservation.id, this.state.checkin, this.state.checkout, this.state.guests, "home")
-            }
+            this.props.onUpdate(this.props.reservation.id, this.state.checkin, this.state.checkout, this.state.guests)
         }
     }
 
     render() {
-        const reservation = this.props.reservation;
         return (
             <div className="reservation">
-                <h4>$ {reservation.price} per night</h4>
+                <h4>{this.props.currentUser.firstName}'s reservation</h4>
                 <form className="reservation__form" onSubmit={(event) => this.handleSubmit(event)}>
                     <label>Dates</label>
                     <h4 className="login__error">{this.state.error}</h4>
                     <div className="form--inline">
-                        <input className="form--margin form__date" type="date" min="2019-02-08" onChange={this.handleChangeInitialDate} />
+                        <input className="form--margin form__date" type="date" value={this.state.checkin} min="2019-02-08" onChange={this.handleChangeInitialDate} />
                         <p className="form--margin" >→</p>
-                        <input className="form__date" type="date" min={this.state.checkin} onChange={this.handleChangeFinalDate} />
+                        <input className="form__date" type="date" value={this.state.checkout} min={this.state.checkin} onChange={this.handleChangeFinalDate} />
                     </div>
                     <label>Guests</label>
                     <div className="form--inline">
@@ -68,7 +72,8 @@ class ForReservation extends Component {
                         <button className="form__guest" onClick={this.handleMore}><p className="form__guest__p">+</p></button>
                     </div>
                     <div className="form--inline">
-                        <input className="form__button" type="submit" value="Book" />
+                        <input className="form__button" type="submit" value="Change" />
+                        <button className="form__button" onClick={() => this.props.onDelete(this.props.reservation.id)}>Delete</button>
                     </div>
                 </form>
             </div >
@@ -78,18 +83,20 @@ class ForReservation extends Component {
 
 const mapStateToProps = (state) => {
     return {
-        currentUser: state.currentUser,
-        users: state.users
+        currentUser: state.currentUser
     };
 }
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        onNewReservation: (idReservation, checkin, checkout, guests, rtype) => {
-            dispatch({ type: 'NEW_RESERVATION', idReservation, checkin, checkout, guests, rtype })
+        onDelete: (idReservation) => {
+            dispatch({ type: 'DELETE_RESERVATION', idReservation })
+        },
+        onUpdate: (idReservation, checkin, checkout, guests) => {
+            dispatch({ type: 'UPDATE_RESERVATION', idReservation, checkin, checkout, guests })
         }
     }
 };
 
 
-export default connect(mapStateToProps, mapDispatchToProps)(ForReservation);
+export default connect(mapStateToProps, mapDispatchToProps)(MyReservation);

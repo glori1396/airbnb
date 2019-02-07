@@ -29,11 +29,7 @@ const mapStateToProps = (state) => {
 }
 
 const mapDispatchToProps = (dispatch) => {
-    return {
-        onRandomPlaces: () => {
-            dispatch({ type: 'LOGOUT' })
-        }
-    };
+    return {};
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(PlacesList);

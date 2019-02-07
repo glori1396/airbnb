@@ -729,5 +729,15 @@
             ]
         }
     ],
-    "Gyms": []
+    "gyms": [],
+    "users": [
+        {
+            "id": "c0321c70-2a84-11e9-8037-cb355380a14c",
+            "username": "glori1396@gmail.com",
+            "firstName": "Gloriana",
+            "lastName": "Flores",
+            "password": "piano2012",
+            "reservations": []
+        }
+    ]
 }

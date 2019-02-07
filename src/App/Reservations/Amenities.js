@@ -29,7 +29,7 @@ class Amenities extends Component {
             <div className="amenities">
                 <h3>Amenities</h3>
                 <div className="amenities__icons">
-                    {icons.map(obj => <div className="amenities__icon"><FontAwesomeIcon className="fontawesome" icon={iconsj[obj.icon]} key={uuidv1()} /> <p>{obj.value}</p></div>)}
+                    {icons.map(obj => <div key={uuidv1()} className="amenities__icon"><FontAwesomeIcon className="fontawesome" icon={iconsj[obj.icon]} key={uuidv1()} /> <p>{obj.value}</p></div>)}
                 </div>
                 <button className="amenities__button" onClick={this.handleClick}>{this.state.isClicked ? "See less" : "See more"}</button>
                 {this.state.isClicked ? <ul className="amenities__list">{this.handleMore(extras)}</ul> : null}
