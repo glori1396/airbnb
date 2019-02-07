@@ -68,7 +68,7 @@ class ForReservation extends Component {
                         <button className="form__guest" onClick={this.handleMore}><p className="form__guest__p">+</p></button>
                     </div>
                     <div className="form--inline">
-                        <input className="form__button" type="submit" value="Book" />
+                        <input className="form__button button" type="submit" value="Book" />
                     </div>
                 </form>
             </div >

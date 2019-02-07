@@ -1,3 +1,4 @@
+
 .modal {
     position: fixed;
     z-index: 1;
@@ -82,3 +83,88 @@
         margin-top: 1rem;
         color: rgb(228, 63, 63);
     }
+
+    .wallpaper {
+        background-image: url('./wallpaper.gif');
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        width: 100%;
+    }
+    
+    .wallpaper--shadow {
+        background-color: rgba(0, 0, 0, 0.465);
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wallpaper__menu {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 2rem;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .wallpaper__menu__title {
+        background-color: transparent;
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+
+    .wallpaper__menu__p {
+        padding: 1rem;
+        background-color: transparent;
+    }
+
+    .wallpaper__menu__button {
+        border: none;
+        width: 13rem;
+        text-align: center;
+        padding: 0.5rem 0;
+        margin: 0.2rem 0;
+        cursor: pointer;
+        font-size: 1rem;
+        background-color: rgb(231, 79, 79);
+        color: whitesmoke;
+        font-weight: bold;
+        border-radius: 4px;
+    }
+
+
+
+/* ##Device = Desktops ---- ##Screen = 1281px to higher resolution desktops */
+@media (min-width: 1281px) {
+    //CSS
+  }
+  
+  /* ##Device = Laptops, Desktops ---- ##Screen = B/w 1025px to 1280px */
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    //CSS
+  }
+  
+  /* ##Device = Tablets, Ipads (portrait) ---- ##Screen = B/w 768px to 1024px */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    //CSS
+  }
+  
+  /* ##Device = Tablets, Ipads (landscape) ---- ##Screen = B/w 768px to 1024px*/
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    //CSS
+  }
+  
+  /* ##Device = Low Resolution Tablets, Mobiles (Landscape) ---- ##Screen = B/w 481px to 767px */
+  @media (min-width: 481px) and (max-width: 767px) {
+    //CSS
+  }
+  
+  /* ##Device = Most of the Smartphones Mobiles (Portrait) ---- ##Screen = B/w 320px to 479px */
+  @media (min-width: 320px) and (max-width: 480px) {
+    //CSS
+  }
+  
+  
+  

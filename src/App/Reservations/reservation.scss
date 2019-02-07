@@ -95,8 +95,9 @@
 
 .form__date {
     border: 1px solid rgb(219, 219, 219);
-    color: gray;
+    color: rgb(78, 78, 78);
     padding: 0.5rem 0 0.5rem 0.5rem;
+    font-family: 'Raleway', sans-serif;
 }
 
 
@@ -122,6 +123,14 @@
     font-size: 1rem;
 }
 
+.form__guest:focus {
+    outline: none;
+}
+
+.form__guest:hover, .form__date:hover {
+    border: 1px solid rgba(207, 66, 66, 0.623);
+}
+
 .form__guest__minus {
     color:gray;
     position: relative;
@@ -137,3 +146,26 @@
     left: -0.5px;
     background: transparent
 }
+
+
+  /* ##Device = Tablets, Ipads (portrait) ---- ##Screen = B/w 768px to 1024px */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    //CSS
+  }
+  
+  /* ##Device = Tablets, Ipads (landscape) ---- ##Screen = B/w 768px to 1024px*/
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    //CSS
+  }
+  
+  /* ##Device = Low Resolution Tablets, Mobiles (Landscape) ---- ##Screen = B/w 481px to 767px */
+  @media (min-width: 481px) and (max-width: 767px) {
+    //CSS
+  }
+  
+  /* ##Device = Most of the Smartphones Mobiles (Portrait) ---- ##Screen = B/w 320px to 479px */
+  @media (min-width: 320px) and (max-width: 480px) {
+    //CSS
+  }
+  
+

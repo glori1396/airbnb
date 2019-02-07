@@ -33,3 +33,38 @@
     padding: 0 0 0 1rem;
     font-weight: bold;
 }
+
+  
+  /* ##Device = Tablets, Ipads (portrait) ---- ##Screen = B/w 768px to 1024px */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .explore__cards__item {
+        flex-basis: 45%;
+    } 
+    .explore__cards__item__image {
+        height: 6rem;
+        width: 11.5rem;
+    }
+  }
+  
+  /* ##Device = Low Resolution Tablets, Mobiles (Landscape) ---- ##Screen = B/w 481px to 767px */
+  @media (min-width: 481px) and (max-width: 767px) {
+      .explore__cards__item {
+          flex-direction: column;
+          flex-basis: 26%;
+      }
+      .explore__cards__item__image {
+          height: 7rem;
+          width: 14rem;
+      }
+      .explore__cards__item__text {
+          padding: 1rem 0;
+      }
+  }
+  
+  /* ##Device = Most of the Smartphones Mobiles (Portrait) ---- ##Screen = B/w 320px to 479px */
+  @media (min-width: 320px) and (max-width: 480px) {
+    //CSS
+  }
+  
+  
+  

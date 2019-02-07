@@ -5,7 +5,7 @@ import * as serviceWorker from './serviceWorker';
 import * as ReactRedux from 'react-redux';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { store } from './Redux/Reducer'
-import ModalLoginSignup from './App/Login/ModalLoginSignup'
+import PrincipalPage from './App/Login/PrincipalPage'
 
 import Root from './App/Root.js'
 
@@ -15,7 +15,7 @@ ReactDOM.render(
             <React.Fragment>
                 <Root>
                     <Switch>
-                        <Route exact path="/" component={ModalLoginSignup} />
+                        <Route exact path="/" component={PrincipalPage} />
                         <Route path="/h" component={App} />
                     </Switch>
                 </Root>

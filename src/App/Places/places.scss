@@ -34,11 +34,12 @@
 
 .carousel__image {
     width: 100%;
-    height: 14rem;
+    height: 10rem;
     background-size: cover;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-position: center;
     transition: background-image 0.3s;
 }
 
@@ -47,3 +48,37 @@
     cursor: pointer;
     color: rgb(211, 209, 209);
 }
+
+  
+  /* ##Device = Tablets, Ipads (portrait) ---- ##Screen = B/w 768px to 1024px */
+  @media (min-width: 768px) and (max-width: 1024px) {
+        .carousel__image {
+           height: 16rem;
+        }
+        .home {
+            width: 46%;
+        }
+  }
+  
+  /* ##Device = Low Resolution Tablets, Mobiles (Landscape) ---- ##Screen = B/w 481px to 767px */
+  @media (min-width: 481px) and (max-width: 767px) {
+    .carousel__image {
+       height: 23rem;
+    }
+    .home {
+        width: 100%;
+    }
+  }
+  
+  /* ##Device = Most of the Smartphones Mobiles (Portrait) ---- ##Screen = B/w 320px to 479px */
+  @media (min-width: 320px) and (max-width: 480px) {
+    .carousel__image {
+       height: 23rem;
+    }
+    .home {
+        width: 100%;
+    }
+  }
+  
+  
+  

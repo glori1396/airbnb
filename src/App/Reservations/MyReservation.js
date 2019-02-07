@@ -72,8 +72,8 @@ class MyReservation extends Component {
                         <button className="form__guest" onClick={this.handleMore}><p className="form__guest__p">+</p></button>
                     </div>
                     <div className="form--inline">
-                        <input className="form__button" type="submit" value="Change" />
-                        <button className="form__button" onClick={() => this.props.onDelete(this.props.reservation.id)}>Delete</button>
+                        <input className="form__button button" type="submit" value="Change" />
+                        <button className="form__button button" onClick={() => this.props.onDelete(this.props.reservation.id)}>Delete</button>
                     </div>
                 </form>
             </div >

@@ -59,7 +59,52 @@ p, h1, h2, h3, h4, h5, ul, li, a, html, body {
 }
 
 .navBar__menu__item {
+  border: none;
+  width: 7rem;
+  text-align: center;
+  padding: 0.5rem 0;
+  margin: 0.2rem 0;
   cursor: pointer;
+  font-size: 1rem;
+  background-color: rgb(231, 79, 79);
+  color: whitesmoke;
   font-weight: bold;
-  color: rgb(231, 79, 79);
 }
+
+.button:hover {
+  background-color: #be3a3a;
+}
+
+.button:active {
+  background-color: #be3a3a;
+  transform: translateY(2px);
+}
+
+.button:focus {
+    outline: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+}
+
+input[type=submit],
+select,
+textarea,
+button {
+    cursor: pointer;
+}
+
+/* ##Device = Low Resolution Tablets, Mobiles (Landscape) ---- ##Screen = B/w 481px to 767px */
+@media (min-width: 481px) and (max-width: 767px) {
+  //CSS
+}
+
+/* ##Device = Most of the Smartphones Mobiles (Portrait) ---- ##Screen = B/w 320px to 479px */
+@media (min-width: 320px) and (max-width: 480px) {
+  //CSS
+}
+
+
