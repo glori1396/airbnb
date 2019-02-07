@@ -16,6 +16,7 @@
 .details__list {
     display: flex;
     padding: 1rem 0 1rem;
+    flex-wrap: wrap;
 }
 
 .details__list__element {
@@ -147,25 +148,29 @@
     background: transparent
 }
 
-
-  /* ##Device = Tablets, Ipads (portrait) ---- ##Screen = B/w 768px to 1024px */
-  @media (min-width: 768px) and (max-width: 1024px) {
-    //CSS
-  }
-  
-  /* ##Device = Tablets, Ipads (landscape) ---- ##Screen = B/w 768px to 1024px*/
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    //CSS
-  }
-  
   /* ##Device = Low Resolution Tablets, Mobiles (Landscape) ---- ##Screen = B/w 481px to 767px */
-  @media (min-width: 481px) and (max-width: 767px) {
-    //CSS
+  @media (min-width: 481px) and (max-width: 767px) {    
+    .details__container {
+        flex-direction: column;
+    }
+    .details__list__element {
+        width: 40%;
+    }
+    .reservation {
+        margin-top: 0.5rem;
+        margin-bottom: 2.5rem;
+    }
   }
   
   /* ##Device = Most of the Smartphones Mobiles (Portrait) ---- ##Screen = B/w 320px to 479px */
   @media (min-width: 320px) and (max-width: 480px) {
-    //CSS
+    .details__container {
+        flex-direction: column;
+    }
+    .reservation {
+        margin-top: 0.5rem;
+        margin-bottom: 2.5rem;
+    }
   }
   
 

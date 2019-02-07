@@ -99,12 +99,17 @@ button {
 
 /* ##Device = Low Resolution Tablets, Mobiles (Landscape) ---- ##Screen = B/w 481px to 767px */
 @media (min-width: 481px) and (max-width: 767px) {
-  //CSS
+  .navBar__searchbar__logo {
+    display: none;
+  }
 }
 
 /* ##Device = Most of the Smartphones Mobiles (Portrait) ---- ##Screen = B/w 320px to 479px */
 @media (min-width: 320px) and (max-width: 480px) {
   //CSS
+  .navBar__searchbar__logo {
+    display: none;
+  }
 }
 
 
