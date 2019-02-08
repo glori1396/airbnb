@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import ModalLoginSignup from './Login/ModalLoginSignup'
-import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import './main.scss';
 import logo from '../media/logo.png';
 
@@ -26,21 +24,14 @@ class Header extends Component {
         }
     }
 
-    handleSubmit = (event) => {
-        event.preventDefault();
-        console.log("Search result")
-    }
 
     render() {
         return (
             <div className="header">
                 <nav className="navBar">
-                    <div className="navBar__searchbar">
+                    <div className="navBar__container">
                         <Link to='/h'><img src={logo} className="navBar__searchbar__logo" alt="logo" /></Link>
-                        <form className="form__searchbar" onSubmit={this.handleSubmit}>
-                            <FontAwesomeIcon className="form__label" icon={faSearch} />
-                            <input className="form__search" type="search" placeholder='Try "Paris"' />
-                        </form>
+                        <h1>Airbnb + Fitness</h1>
                     </div>
                     {this.handleMenu()}
                 </nav>

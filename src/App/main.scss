@@ -24,7 +24,7 @@ p, h1, h2, h3, h4, h5, ul, li, a, html, body {
   padding: 0.8rem 1.5rem 0.8rem;
 }
 
-.navBar__searchbar {
+.navBar__container {
   width: 35rem;
   display: flex;
   align-items: center;
@@ -77,6 +77,10 @@ img {
   background-color:  $button-color;;
   color: whitesmoke;
   font-weight: bold;
+}
+
+.navBar__searchbar__logo {
+  margin-right: 2rem,
 }
 
 .button:hover {
