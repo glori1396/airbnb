@@ -60,7 +60,7 @@
             "idOwner": 1,
             "idCountry": 1,
             "idCity": 1,
-            "name": "Name 1",
+            "name": "Aliza House",
             "description": "Good sized, basic double room in a 3 bed 'Shared' flat situated in the heart of Holborn, East Central London. The flat comprises of a fitted kitchen and a shared bathroom.",
             "stars": 4,
             "media": [
@@ -106,7 +106,7 @@
             "idCountry": 1,
             "description": "Good sized, basic double room in a 3 bed 'Shared' flat situated in the heart of Holborn, East Central London. The flat comprises of a fitted kitchen and a shared bathroom.",
             "idCity": 1,
-            "name": "Name 1",
+            "name": "House Horse",
             "stars": 4,
             "media": [
                 "https://q-ec.bstatic.com/images/hotel/max1024x768/524/52441205.jpg",
@@ -151,7 +151,7 @@
             "idCountry": 1,
             "idCity": 1,
             "description": "Good sized, basic double room in a 3 bed 'Shared' flat situated in the heart of Holborn, East Central London. The flat comprises of a fitted kitchen and a shared bathroom.",
-            "name": "Name 1",
+            "name": "My Own House",
             "stars": 4,
             "media": [
                 "https://2486634c787a971a3554-d983ce57e4c84901daded0f67d5a004f.ssl.cf1.rackcdn.com/hotel-epik/media/cache/EPIK-Rooms-01-3_1-One-Queen-5a9f20c9d01ec-750x550.jpg",
@@ -195,7 +195,7 @@
             "idCountry": 1,
             "description": "Good sized, basic double room in a 3 bed 'Shared' flat situated in the heart of Holborn, East Central London. The flat comprises of a fitted kitchen and a shared bathroom.",
             "idCity": 1,
-            "name": "Name 1",
+            "name": "Louis Break House",
             "stars": 4,
             "media": [
                 "https://2486634c787a971a3554-d983ce57e4c84901daded0f67d5a004f.ssl.cf1.rackcdn.com/hotel-epik/media/cache/EPIK-Rooms-01-5_1-King-Suite-5a9f2028ab87e-750x550.jpg",
@@ -240,7 +240,7 @@
             "idCountry": 1,
             "idCity": 2,
             "description": "Good sized, basic double room in a 3 bed 'Shared' flat situated in the heart of Holborn, East Central London. The flat comprises of a fitted kitchen and a shared bathroom.",
-            "name": "Name 1",
+            "name": "Your best option",
             "stars": 4,
             "media": [
                 "https://q-ec.bstatic.com/images/hotel/max1024x768/426/42651465.jpg",
@@ -285,7 +285,7 @@
             "idCountry": 1,
             "idCity": 2,
             "description": "Good sized, basic double room in a 3 bed 'Shared' flat situated in the heart of Holborn, East Central London. The flat comprises of a fitted kitchen and a shared bathroom.",
-            "name": "Name 1",
+            "name": "Juanic Home",
             "stars": 4,
             "media": [
                 "https://www.fullertonhotels.com/uploads/9/8/1/8/98182264/courtyard-room-01-23-orig_1.jpeg",
@@ -330,7 +330,7 @@
             "idCountry": 1,
             "description": "Good sized, basic double room in a 3 bed 'Shared' flat situated in the heart of Holborn, East Central London. The flat comprises of a fitted kitchen and a shared bathroom.",
             "idCity": 2,
-            "name": "Name 1",
+            "name": "Cozy House pink",
             "stars": 4,
             "media": [
                 "https://www.fullertonhotels.com/uploads/9/8/1/8/98182264/esplanade-room-01_2.jpeg",
@@ -374,7 +374,7 @@
             "idCountry": 1,
             "idCity": 2,
             "description": "Good sized, basic double room in a 3 bed 'Shared' flat situated in the heart of Holborn, East Central London. The flat comprises of a fitted kitchen and a shared bathroom.",
-            "name": "Name 1",
+            "name": "Kamila Home",
             "stars": 4,
             "media": [
                 "https://www.fullertonhotels.com/uploads/9/8/1/8/98182264/palladian-suite-living-room-the-fullerton-hotel-singapore_3.jpeg",
@@ -419,7 +419,7 @@
             "idCountry": 2,
             "idCity": 3,
             "description": "Good sized, basic double room in a 3 bed 'Shared' flat situated in the heart of Holborn, East Central London. The flat comprises of a fitted kitchen and a shared bathroom.",
-            "name": "Name 1",
+            "name": "Come here!",
             "stars": 4,
             "media": [
                 "https://www.fullertonhotels.com/uploads/9/8/1/8/98182264/governor-suite-bedroom-the-fullerton-hotel-singapore-orig_3.jpg",
@@ -464,7 +464,7 @@
             "idCountry": 2,
             "description": "Good sized, basic double room in a 3 bed 'Shared' flat situated in the heart of Holborn, East Central London. The flat comprises of a fitted kitchen and a shared bathroom.",
             "idCity": 3,
-            "name": "Name 1",
+            "name": "My Ericka's",
             "stars": 4,
             "media": [
                 "https://a0.muscache.com/im/pictures/61000205/09cd834f_original.jpg?aki_policy=large",
@@ -509,7 +509,7 @@
             "idCountry": 2,
             "description": "Good sized, basic double room in a 3 bed 'Shared' flat situated in the heart of Holborn, East Central London. The flat comprises of a fitted kitchen and a shared bathroom.",
             "idCity": 3,
-            "name": "Name 1",
+            "name": "Ban Kku Ni",
             "stars": 4,
             "media": [
                 "https://www.fullertonhotels.com/uploads/9/8/1/8/98182264/presidential-suite-living-room-the-fullerton-hotel-singapore-1-orig_3.jpg",
@@ -553,7 +553,7 @@
             "idCountry": 2,
             "description": "Good sized, basic double room in a 3 bed 'Shared' flat situated in the heart of Holborn, East Central London. The flat comprises of a fitted kitchen and a shared bathroom.",
             "idCity": 4,
-            "name": "Name 1",
+            "name": "Pods Home",
             "stars": 4,
             "media": [
                 "https://a0.muscache.com/im/pictures/96337480/64fe7425_original.jpg?aki_policy=xx_large",
@@ -598,7 +598,7 @@
             "idCountry": 2,
             "idCity": 4,
             "description": "Good sized, basic double room in a 3 bed 'Shared' flat situated in the heart of Holborn, East Central London. The flat comprises of a fitted kitchen and a shared bathroom.",
-            "name": "Name 1",
+            "name": "Yiu Chen",
             "stars": 4,
             "media": [
                 "https://a0.muscache.com/im/pictures/95606daa-5bb6-47e2-8e56-de0bee5a6d34.jpg?aki_policy=xx_large",
@@ -643,7 +643,7 @@
             "idCountry": 3,
             "idCity": 5,
             "description": "Good sized, basic double room in a 3 bed 'Shared' flat situated in the heart of Holborn, East Central London. The flat comprises of a fitted kitchen and a shared bathroom.",
-            "name": "Name 1",
+            "name": "House for you",
             "stars": 4,
             "media": [
                 "https://a0.muscache.com/im/pictures/25ff1d50-7823-4240-b323-a1f39c7f8178.jpg?aki_policy=xx_large",
@@ -684,12 +684,12 @@
             ]
         },
         {
-            "id": 15,
+            "id": 16,
             "idOwner": 1,
             "idCountry": 2,
             "idCity": 4,
             "description": "Good sized, basic double room in a 3 bed 'Shared' flat situated in the heart of Holborn, East Central London. The flat comprises of a fitted kitchen and a shared bathroom.",
-            "name": "Name 1",
+            "name": "The Font House",
             "stars": 3,
             "media": [
                 "https://a0.muscache.com/im/pictures/1ac8bd0f-0259-4366-ba38-974053130029.jpg?aki_policy=x_large",
@@ -728,12 +728,12 @@
             ]
         },
         {
-            "id": 16,
+            "id": 17,
             "idOwner": 1,
             "idCountry": 2,
             "idCity": 4,
             "description": "Good sized, basic double room in a 3 bed 'Shared' flat situated in the heart of Holborn, East Central London. The flat comprises of a fitted kitchen and a shared bathroom.",
-            "name": "Name 1",
+            "name": "Come House",
             "stars": 3,
             "media": [
                 "https://a0.muscache.com/im/pictures/69344a43-612d-4b0c-880f-a3d1ab795ef6.jpg?aki_policy=xx_large",
@@ -772,12 +772,12 @@
             ]
         },
         {
-            "id": 17,
+            "id": 18,
             "idOwner": 1,
             "idCountry": 2,
             "idCity": 3,
             "description": "Good sized, basic double room in a 3 bed 'Shared' flat situated in the heart of Holborn, East Central London. The flat comprises of a fitted kitchen and a shared bathroom.",
-            "name": "Name 1",
+            "name": "Firulais House",
             "stars": 4,
             "media": [
                 "https://a0.muscache.com/im/pictures/95033249/77a6c967_original.jpg?aki_policy=x_large",
@@ -817,12 +817,12 @@
             ]
         },
         {
-            "id": 18,
+            "id": 19,
             "idOwner": 1,
             "idCountry": 3,
             "idCity": 5,
             "description": "Good sized, basic double room in a 3 bed 'Shared' flat situated in the heart of Holborn, East Central London. The flat comprises of a fitted kitchen and a shared bathroom.",
-            "name": "Name 1",
+            "name": "Rapt Jiu",
             "stars": 2,
             "media": [
                 "https://a0.muscache.com/im/pictures/514649e6-4147-4399-980d-4535948d619e.jpg?aki_policy=xx_large",
@@ -862,12 +862,12 @@
             ]
         },
         {
-            "id": 19,
+            "id": 20,
             "idOwner": 1,
             "idCountry": 3,
             "idCity": 5,
             "description": "Good sized, basic double room in a 3 bed 'Shared' flat situated in the heart of Holborn, East Central London. The flat comprises of a fitted kitchen and a shared bathroom.",
-            "name": "Name 1",
+            "name": "Tone Up Home",
             "stars": 5,
             "media": [
                 "https://a0.muscache.com/im/pictures/50c1cac3-d064-46c7-a75d-057572b3aac2.jpg?aki_policy=xx_large",
@@ -907,12 +907,12 @@
             ]
         },
         {
-            "id": 20,
+            "id": 21,
             "idOwner": 1,
             "idCountry": 3,
             "idCity": 5,
             "description": "Good sized, basic double room in a 3 bed 'Shared' flat situated in the heart of Holborn, East Central London. The flat comprises of a fitted kitchen and a shared bathroom.",
-            "name": "Name 1",
+            "name": "Noma Noma House",
             "stars": 4,
             "media": [
                 "https://a0.muscache.com/im/pictures/e925b4e4-bbb8-471d-99fb-7f93ee9905bc.jpg?aki_policy=xx_large",

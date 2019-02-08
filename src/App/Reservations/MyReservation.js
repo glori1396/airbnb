@@ -12,7 +12,7 @@ class MyReservation extends Component {
             checkout: "",
             guests: 1,
             error: "",
-            onLoginClick: true
+            onLoginClick: false
         }
     }
 
@@ -24,7 +24,8 @@ class MyReservation extends Component {
         this.setState({
             checkin: this.props.reservation.checkin,
             checkout: this.props.reservation.checkout,
-            guests: this.props.reservation.guests
+            guests: this.props.reservation.guests,
+            onLoginClick: this.props.isHome ? true : false
         })
     }
 
@@ -48,6 +49,7 @@ class MyReservation extends Component {
             this.setState({ guests: this.state.guests + 1 })
         }
     }
+
 
     handleSubmit = (event) => {
         event.preventDefault();

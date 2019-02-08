@@ -12,7 +12,7 @@ class PlacesList extends Component {
     render() {
         const parsed = queryString.parse(this.props.location.search);
         const list = getListPlaces(this.props.homes, this.props.gyms, parsed.type);
-        const userPlaces = this.props.currentUser ? userReservations(this.props.currentUser.reservations, this.props.homes) : false;
+        const userPlaces = this.props.currentUser ? userReservations(this.props.currentUser.reservations, this.props.homes, this.props.gyms) : false;
         return (
             <div>
                 {userPlaces ? <div className="myReservation"><Homes key={uuidv1()} places={userPlaces} title={"My Reservations"} cities={this.props.cities} countries={this.props.countries} match={this.props.match} /> </div> : null}

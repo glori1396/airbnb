@@ -15,8 +15,12 @@ export const getListPlaces = (homes, gyms, type) => {
     return places;
 }
 
-export const userReservations = (userReservations, places) => {
-    let userPlaces = userReservations.map(place => places.find(obj => obj.id === parseInt(place.id)));
-    if (userPlaces.length === 0) return false;
-    return userPlaces;
+export const userReservations = (userReservations, homes, gyms) => {
+    let places = [];
+    let userHomes = userReservations.map(place => homes.find(obj => obj.id === parseInt(place.id)));
+    userHomes.map(gym => (typeof (gym) !== "undefined") ? places.push(gym) : null);
+    let userGyms = userReservations.map(place => gyms.find(obj => obj.id === parseInt(place.id)));
+    if (userGyms.length > 0) userGyms.map(gym => (typeof (gym) !== "undefined") ? places.push(gym) : null);
+    if (userHomes.length === 0) return false;
+    return [places, "MyPlaces"];
 }
