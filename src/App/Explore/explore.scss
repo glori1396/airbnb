@@ -1,4 +1,7 @@
 
+@import '../main.scss';
+
+
 .explore__cards {
     margin: 1rem 0 2.3rem;
     display: flex;
@@ -62,13 +65,23 @@
   }
   
   /* ##Device = Most of the Smartphones Mobiles (Portrait) ---- ##Screen = B/w 320px to 479px */
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media  (max-width: 480px) {
+      .explore__cards {
+          flex-direction: column;
+          width: 100%;
+      }
     .explore__cards__item {
         flex-direction: column;
-        flex-basis: 100%;
+        width: 80%;
+        margin:0 0 1rem 0;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 4px;
+
     }
     .explore__cards__item__text {
         padding: 1rem 0;
+    }
+    .explore__cards__item__image {
+        height: 0;
     }
   }
   

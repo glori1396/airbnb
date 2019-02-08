@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import ModalLoginSignup from './Login/ModalLoginSignup'
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import './main.scss';
+import logo from '../media/logo.png';
 
 class Header extends Component {
 
@@ -32,9 +36,9 @@ class Header extends Component {
             <div className="header">
                 <nav className="navBar">
                     <div className="navBar__searchbar">
-                        <h4 className="navBar__searchbar__logo">Logo</h4>
+                        <Link to='/h'><img src={logo} className="navBar__searchbar__logo" alt="logo" /></Link>
                         <form className="form__searchbar" onSubmit={this.handleSubmit}>
-                            <label className="form__label">Q</label>
+                            <FontAwesomeIcon className="form__label" icon={faSearch} />
                             <input className="form__search" type="search" placeholder='Try "Paris"' />
                         </form>
                     </div>

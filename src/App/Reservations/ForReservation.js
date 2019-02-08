@@ -52,16 +52,16 @@ class ForReservation extends Component {
         const reservation = this.props.reservation;
         return (
             <div className="reservation">
-                <h4>$ {reservation.price} per night</h4>
+                <h4>$ {reservation.price} per {this.props.isHome ? "night" : "day"}</h4>
                 <form className="reservation__form" onSubmit={(event) => this.handleSubmit(event)}>
-                    <label>Dates</label>
+                    <label>{this.props.isHome ? "Dates" : "What days do you want to go?"}</label>
                     <h4 className="login__error">{this.state.error}</h4>
                     <div className="form--inline">
                         <input className="form--margin form__date" type="date" min="2019-02-08" onChange={this.handleChangeInitialDate} />
                         <p className="form--margin" >→</p>
                         <input className="form__date" type="date" min={this.state.checkin} onChange={this.handleChangeFinalDate} />
                     </div>
-                    <label>Guests</label>
+                    <label>{this.props.isHome ? "Guests" : "How many people?"}</label>
                     <div className="form--inline">
                         <button className="form--margin form__guest" onClick={this.handleMinus}><p className="form__guest__minus">-</p></button>
                         <p className="form--margin">{this.state.guests}</p>

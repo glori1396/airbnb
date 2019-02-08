@@ -7,11 +7,11 @@ export function reducer(state = { countries: data.countries, owners: data.owners
         case 'LOGIN':
             //sessionStorage.setItem("customer", action.customer)
             let user = state.users.find(user => user.username === action.username);
-            if (user.password !== action.password) user = false;
+            if (user && user.password !== action.password) user = false;
             return Object.assign(
                 {},
                 state, {
-                    currentUser: user
+                    currentUser: user ? user : false
                 });
         case 'LOGOUT':
             return Object.assign(

@@ -146,51 +146,6 @@
             ]
         },
         {
-            "id": 3,
-            "idOwner": 1,
-            "idCountry": 1,
-            "idCity": 1,
-            "description": "Good sized, basic double room in a 3 bed 'Shared' flat situated in the heart of Holborn, East Central London. The flat comprises of a fitted kitchen and a shared bathroom.",
-            "name": "Name 1",
-            "stars": 4,
-            "media": [
-                "https://2486634c787a971a3554-d983ce57e4c84901daded0f67d5a004f.ssl.cf1.rackcdn.com/hotel-epik/media/cache/EPIK-Rooms-01-1_1-One-Twin-5a9f20fb27dc3-750x550.jpg",
-                "http://twinpalms-phuket.com/wp-content/uploads/2015/08/DSC02860-Edit.jpg",
-                "http://twinpalms-phuket.com/wp-content/uploads/2015/08/Deluxe-Lagoon7.jpg"
-            ],
-            "price": 33,
-            "beds": 2,
-            "guests": 4,
-            "bedrooms": 2,
-            "bathrooms": 1.5,
-            "extras": [
-                [
-                    {
-                        "icon": "faWifi",
-                        "value": "Wireless Internet"
-                    },
-                    {
-                        "icon": "faUtensils",
-                        "value": "Kitchen"
-                    },
-                    {
-                        "icon": "faWind",
-                        "value": "Dryer"
-                    },
-                    {
-                        "icon": "faLaptop",
-                        "value": "Laptop friendly workspace"
-                    }
-                ],
-                [
-                    "WIFI 24mbps",
-                    "Free Luggage Storage",
-                    "100% safe area at night",
-                    "10 min to Paris Tower"
-                ]
-            ]
-        },
-        {
             "id": 4,
             "idOwner": 1,
             "idCountry": 1,
@@ -727,9 +682,487 @@
                     "10 min to Paris Tower"
                 ]
             ]
+        },
+        {
+            "id": 15,
+            "idOwner": 1,
+            "idCountry": 2,
+            "idCity": 4,
+            "description": "Good sized, basic double room in a 3 bed 'Shared' flat situated in the heart of Holborn, East Central London. The flat comprises of a fitted kitchen and a shared bathroom.",
+            "name": "Name 1",
+            "stars": 3,
+            "media": [
+                "https://a0.muscache.com/im/pictures/1ac8bd0f-0259-4366-ba38-974053130029.jpg?aki_policy=x_large",
+                "https://a0.muscache.com/im/pictures/b826f27d-b113-49d0-a824-a46b0e7fded3.jpg?aki_policy=x_large"
+            ],
+            "price": 133,
+            "beds": 3,
+            "guests": 4,
+            "bedrooms": 3,
+            "bathrooms": 1.5,
+            "extras": [
+                [
+                    {
+                        "icon": "faWifi",
+                        "value": "Wireless Internet"
+                    },
+                    {
+                        "icon": "faUtensils",
+                        "value": "Kitchen"
+                    },
+                    {
+                        "icon": "faWind",
+                        "value": "Dryer"
+                    },
+                    {
+                        "icon": "faLaptop",
+                        "value": "Laptop friendly workspace"
+                    }
+                ],
+                [
+                    "WIFI 24mbps",
+                    "Free Luggage Storage",
+                    "100% safe area at night",
+                    "10 min to Paris Tower"
+                ]
+            ]
+        },
+        {
+            "id": 16,
+            "idOwner": 1,
+            "idCountry": 2,
+            "idCity": 4,
+            "description": "Good sized, basic double room in a 3 bed 'Shared' flat situated in the heart of Holborn, East Central London. The flat comprises of a fitted kitchen and a shared bathroom.",
+            "name": "Name 1",
+            "stars": 3,
+            "media": [
+                "https://a0.muscache.com/im/pictures/69344a43-612d-4b0c-880f-a3d1ab795ef6.jpg?aki_policy=xx_large",
+                "https://a0.muscache.com/im/pictures/2b713366-6594-43e0-9365-705087c39154.jpg?aki_policy=x_large"
+            ],
+            "price": 50,
+            "beds": 2,
+            "guests": 4,
+            "bedrooms": 2,
+            "bathrooms": 2.5,
+            "extras": [
+                [
+                    {
+                        "icon": "faWifi",
+                        "value": "Wireless Internet"
+                    },
+                    {
+                        "icon": "faUtensils",
+                        "value": "Kitchen"
+                    },
+                    {
+                        "icon": "faWind",
+                        "value": "Dryer"
+                    },
+                    {
+                        "icon": "faLaptop",
+                        "value": "Laptop friendly workspace"
+                    }
+                ],
+                [
+                    "WIFI 24mbps",
+                    "Free Luggage Storage",
+                    "100% safe area at night",
+                    "10 min to Paris Tower"
+                ]
+            ]
+        },
+        {
+            "id": 17,
+            "idOwner": 1,
+            "idCountry": 2,
+            "idCity": 3,
+            "description": "Good sized, basic double room in a 3 bed 'Shared' flat situated in the heart of Holborn, East Central London. The flat comprises of a fitted kitchen and a shared bathroom.",
+            "name": "Name 1",
+            "stars": 4,
+            "media": [
+                "https://a0.muscache.com/im/pictures/95033249/77a6c967_original.jpg?aki_policy=x_large",
+                "https://a0.muscache.com/im/pictures/95034284/afb5ae55_original.jpg?aki_policy=x_large",
+                "https://a0.muscache.com/im/pictures/0930e881-aff9-41a8-b03b-f557df920474.jpg?aki_policy=large"
+            ],
+            "price": 71,
+            "beds": 2,
+            "guests": 4,
+            "bedrooms": 2,
+            "bathrooms": 1.5,
+            "extras": [
+                [
+                    {
+                        "icon": "faWifi",
+                        "value": "Wireless Internet"
+                    },
+                    {
+                        "icon": "faUtensils",
+                        "value": "Kitchen"
+                    },
+                    {
+                        "icon": "faWind",
+                        "value": "Dryer"
+                    },
+                    {
+                        "icon": "faLaptop",
+                        "value": "Laptop friendly workspace"
+                    }
+                ],
+                [
+                    "WIFI 24mbps",
+                    "Free Luggage Storage",
+                    "100% safe area at night",
+                    "10 min to Paris Tower"
+                ]
+            ]
+        },
+        {
+            "id": 18,
+            "idOwner": 1,
+            "idCountry": 3,
+            "idCity": 5,
+            "description": "Good sized, basic double room in a 3 bed 'Shared' flat situated in the heart of Holborn, East Central London. The flat comprises of a fitted kitchen and a shared bathroom.",
+            "name": "Name 1",
+            "stars": 2,
+            "media": [
+                "https://a0.muscache.com/im/pictures/514649e6-4147-4399-980d-4535948d619e.jpg?aki_policy=xx_large",
+                "https://a0.muscache.com/im/pictures/399a97f7-23fc-48c0-91be-9314fe26a257.jpg?aki_policy=x_large",
+                "https://a0.muscache.com/im/pictures/9d7cfee2-e079-487b-ad0a-0f1f3091ce4c.jpg?aki_policy=x_large"
+            ],
+            "price": 33,
+            "beds": 1,
+            "guests": 1,
+            "bedrooms": 1,
+            "bathrooms": 1.0,
+            "extras": [
+                [
+                    {
+                        "icon": "faWifi",
+                        "value": "Wireless Internet"
+                    },
+                    {
+                        "icon": "faUtensils",
+                        "value": "Kitchen"
+                    },
+                    {
+                        "icon": "faWind",
+                        "value": "Dryer"
+                    },
+                    {
+                        "icon": "faLaptop",
+                        "value": "Laptop friendly workspace"
+                    }
+                ],
+                [
+                    "WIFI 24mbps",
+                    "Free Luggage Storage",
+                    "100% safe area at night",
+                    "10 min to Paris Tower"
+                ]
+            ]
+        },
+        {
+            "id": 19,
+            "idOwner": 1,
+            "idCountry": 3,
+            "idCity": 5,
+            "description": "Good sized, basic double room in a 3 bed 'Shared' flat situated in the heart of Holborn, East Central London. The flat comprises of a fitted kitchen and a shared bathroom.",
+            "name": "Name 1",
+            "stars": 5,
+            "media": [
+                "https://a0.muscache.com/im/pictures/50c1cac3-d064-46c7-a75d-057572b3aac2.jpg?aki_policy=xx_large",
+                "https://a0.muscache.com/im/pictures/5a6d5b63-7869-4c47-b563-4bea095b26c3.jpg?aki_policy=x_large",
+                "https://a0.muscache.com/im/pictures/b6ed022f-8fd7-4c92-9f95-ee897383d921.jpg?aki_policy=x_large"
+            ],
+            "price": 55,
+            "beds": 2,
+            "guests": 2,
+            "bedrooms": 2,
+            "bathrooms": 2.5,
+            "extras": [
+                [
+                    {
+                        "icon": "faWifi",
+                        "value": "Wireless Internet"
+                    },
+                    {
+                        "icon": "faUtensils",
+                        "value": "Kitchen"
+                    },
+                    {
+                        "icon": "faWind",
+                        "value": "Dryer"
+                    },
+                    {
+                        "icon": "faLaptop",
+                        "value": "Laptop friendly workspace"
+                    }
+                ],
+                [
+                    "WIFI 24mbps",
+                    "Free Luggage Storage",
+                    "100% safe area at night",
+                    "10 min to Paris Tower"
+                ]
+            ]
+        },
+        {
+            "id": 20,
+            "idOwner": 1,
+            "idCountry": 3,
+            "idCity": 5,
+            "description": "Good sized, basic double room in a 3 bed 'Shared' flat situated in the heart of Holborn, East Central London. The flat comprises of a fitted kitchen and a shared bathroom.",
+            "name": "Name 1",
+            "stars": 4,
+            "media": [
+                "https://a0.muscache.com/im/pictures/e925b4e4-bbb8-471d-99fb-7f93ee9905bc.jpg?aki_policy=xx_large",
+                "https://a0.muscache.com/im/pictures/07e134d5-8fd9-4dc6-9413-67df8d97d071.jpg?aki_policy=x_large",
+                "https://a0.muscache.com/im/pictures/0024816c-ec1c-445f-97a8-b1540b8991e5.jpg?aki_policy=x_large"
+            ],
+            "price": 98,
+            "beds": 2,
+            "guests": 4,
+            "bedrooms": 2,
+            "bathrooms": 1.5,
+            "extras": [
+                [
+                    {
+                        "icon": "faWifi",
+                        "value": "Wireless Internet"
+                    },
+                    {
+                        "icon": "faUtensils",
+                        "value": "Kitchen"
+                    },
+                    {
+                        "icon": "faWind",
+                        "value": "Dryer"
+                    },
+                    {
+                        "icon": "faLaptop",
+                        "value": "Laptop friendly workspace"
+                    }
+                ],
+                [
+                    "WIFI 24mbps",
+                    "Free Luggage Storage",
+                    "100% safe area at night",
+                    "10 min to Paris Tower"
+                ]
+            ]
         }
     ],
-    "gyms": [],
+    "gyms": [
+        {
+            "id": 100,
+            "name": "Gym Fancy",
+            "idCity": 1,
+            "idCountry": 1,
+            "idOwner": 1,
+            "stars": 4,
+            "price": 30,
+            "media": [
+                "https://www.ouiinfrance.com/wp-content/uploads/2014/08/french-vs-american-gyms-exercise.jpg",
+                "https://www.ouiinfrance.com/wp-content/uploads/2014/08/france-group-fitness-cycling-768x513.jpg"
+            ],
+            "extras": [
+                "cardio",
+                "running",
+                "otros tiposd de maquinas"
+            ],
+            "description": "Good sized, basic double gym in a 3 large spaces 'Shared' flat situated in the heart of Holborn, East Central London. A shared bathroom too."
+        },
+        {
+            "id": 101,
+            "name": "OZY FIT GYM",
+            "idCity": 1,
+            "idCountry": 1,
+            "idOwner": 1,
+            "stars": 3,
+            "price": 15,
+            "media": [
+                "https://www.romeing.it/wp-content/uploads/2013/03/dabliu-300x189.jpg",
+                "https://www.carreaudutemple.eu/sites/default/files/styles/1200x465/public/images/cours/Visuel%20Com%20Carreau%20du%20temple.jpg?itok=XDPK9Jld"
+            ],
+            "extras": [
+                "cardio",
+                "running",
+                "otros tiposd de maquinas"
+            ],
+            "description": "Good sized, basic double gym in a 3 large spaces 'Shared' flat situated in the heart of Holborn, East Central London. A shared bathroom too."
+        },
+        {
+            "id": 102,
+            "name": "Gym Suedoise",
+            "idCity": 2,
+            "idCountry": 1,
+            "idOwner": 1,
+            "stars": 3,
+            "price": 35,
+            "media": [
+                "https://static.lexpress.fr/medias_11003/w_960,h_540,c_fill,g_north/v1467983643/gym-suedoise_5633997.jpg",
+                "https://www.carreaudutemple.eu/sites/default/files/styles/1200x465/public/images/cours/Visuel%20Com%20Carreau%20du%20temple.jpg?itok=XDPK9Jld"
+            ],
+            "extras": [
+                "cardio",
+                "running",
+                "otros tiposd de maquinas"
+            ],
+            "description": "Good sized, basic double gym in a 3 large spaces 'Shared' flat situated in the heart of Holborn, East Central London. A shared bathroom too."
+        },
+        {
+            "id": 103,
+            "name": "Moves",
+            "idCity": 2,
+            "idCountry": 1,
+            "idOwner": 1,
+            "stars": 3,
+            "price": 30,
+            "media": [
+                "https://www.wantedinrome.com/i/preview/storage/uploads/2017/06/move.png",
+                "https://www.romeing.it/wp-content/uploads/2013/03/dabliu-300x189.jpg"
+            ],
+            "extras": [
+                "cardio",
+                "running",
+                "otros tiposd de maquinas"
+            ],
+            "description": "Good sized, basic double gym in a 3 large spaces 'Shared' flat situated in the heart of Holborn, East Central London. A shared bathroom too."
+        },
+        {
+            "id": 104,
+            "name": "Colosseo Fitness",
+            "idCity": 3,
+            "idCountry": 2,
+            "idOwner": 1,
+            "stars": 5,
+            "price": 46,
+            "media": [
+                "https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/51548700_2435641893153841_8031959890039668736_n.jpg?_nc_cat=106&_nc_ht=scontent.fsyq1-1.fna&oh=c5fdebedef867470c63d9ad52763e652&oe=5CB3606B",
+                "https://www.romeing.it/wp-content/uploads/2013/03/dabliu-300x189.jpg"
+            ],
+            "extras": [
+                "cardio",
+                "running",
+                "otros tiposd de maquinas"
+            ],
+            "description": "Good sized, basic double gym in a 3 large spaces 'Shared' flat situated in the heart of Holborn, East Central London. A shared bathroom too."
+        },
+        {
+            "id": 105,
+            "name": "Farnese GYM",
+            "idCity": 3,
+            "idCountry": 2,
+            "idOwner": 1,
+            "stars": 3,
+            "price": 24,
+            "media": [
+                "https://www.romeing.it/wp-content/uploads/2013/03/hard-candy-300x195.jpg",
+                "https://www.dickssportinggoods.com/c/exercise-deals"
+            ],
+            "extras": [
+                "cardio",
+                "running",
+                "otros tiposd de maquinas"
+            ],
+            "description": "Good sized, basic double gym in a 3 large spaces 'Shared' flat situated in the heart of Holborn, East Central London. A shared bathroom too."
+        },
+        {
+            "id": 106,
+            "name": "Planet Fitness",
+            "idCity": 4,
+            "idCountry": 2,
+            "idOwner": 1,
+            "stars": 4,
+            "price": 38,
+            "media": [
+                "https://www.travoh.com/wp-content/uploads/2017/02/026-St-Regis-Luxury-Hotel-Florence-Italy-Fitness-Center.jpg",
+                "https://www.planetfitness.com/sites/default/files/styles/gallery_full_image/public/club-photos/498/Rome__NY_photo_2_0.jpg?itok=3lzx4x5G"
+            ],
+            "extras": [
+                "cardio",
+                "running",
+                "otros tiposd de maquinas"
+            ],
+            "description": "Good sized, basic double gym in a 3 large spaces 'Shared' flat situated in the heart of Holborn, East Central London. A shared bathroom too."
+        },
+        {
+            "id": 107,
+            "name": "Florence Fitness",
+            "idCity": 4,
+            "idCountry": 2,
+            "idOwner": 1,
+            "stars": 5,
+            "price": 50,
+            "media": [
+                "http://www.theflorentine.net/wp-content/uploads/2017/07/xklab-conti-gym-1-680x454.jpg.pagespeed.ic.uCMZqHJz3h.webp",
+                "https://www.travoh.com/wp-content/uploads/2017/02/026-St-Regis-Luxury-Hotel-Florence-Italy-Fitness-Center.jpg"
+            ],
+            "extras": [
+                "cardio",
+                "running",
+                "otros tiposd de maquinas"
+            ],
+            "description": "Good sized, basic double gym in a 3 large spaces 'Shared' flat situated in the heart of Holborn, East Central London. A shared bathroom too."
+        },
+        {
+            "id": 108,
+            "name": "Ricciardi Fitness",
+            "idCity": 5,
+            "idCountry": 3,
+            "idOwner": 1,
+            "stars": 5,
+            "price": 30,
+            "media": [
+                "https://www.europassitalian.com/wp-content/uploads/2018/12/palestraricciardi.png",
+                "https://www.cittacoupon.it/aziende-coupon/44086/foto_1.jpg"
+            ],
+            "extras": [
+                "cardio",
+                "running",
+                "otros tiposd de maquinas"
+            ],
+            "description": "Good sized, basic double gym in a 3 large spaces 'Shared' flat situated in the heart of Holborn, East Central London. A shared bathroom too."
+        },
+        {
+            "id": 109,
+            "name": "FitX Fitnessstudio",
+            "idCity": 5,
+            "idCountry": 3,
+            "idOwner": 1,
+            "stars": 4,
+            "price": 13,
+            "media": [
+                "https://assets.trendkraft.de/pressebilder/2705/2014/in-muenchen-eroeffnet-das-bundesweit-20-fitx-fitnessstudio_0.jpg",
+                "https://media.qiez.de/uploads/sites/2/2018/03/07174615/fitx-fitnessstudio-berlin-tempelhof-fitx-fitnessstudio-berlin-tempelhof-cardiobereich.jpeg"
+            ],
+            "extras": [
+                "cardio",
+                "running",
+                "otros tiposd de maquinas"
+            ],
+            "description": "Good sized, basic double gym in a 3 large spaces 'Shared' flat situated in the heart of Holborn, East Central London. A shared bathroom too."
+        },
+        {
+            "id": 110,
+            "name": "McFit gym",
+            "idCity": 5,
+            "idCountry": 3,
+            "idOwner": 1,
+            "stars": 3,
+            "price": 23,
+            "media": [
+                "https://fastly.4sqi.net/img/general/558x200/33853134_9fKbk2qyXLPoIin9Jf0S3j19MwicHKt-66t_0I1gYMM.jpg",
+                "https://www.mcfit.com/uploads/pics/McFIT_Training_freie-Gewichte_Topteaser_04.jpg"
+            ],
+            "extras": [
+                "cardio",
+                "running",
+                "otros tiposd de maquinas"
+            ],
+            "description": "Good sized, basic double gym in a 3 large spaces 'Shared' flat situated in the heart of Holborn, East Central London. A shared bathroom too."
+        }
+    ],
     "users": [
         {
             "id": "c0321c70-2a84-11e9-8037-cb355380a14c",

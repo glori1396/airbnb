@@ -8,13 +8,13 @@ class Explore extends Component {
             <div className="explore">
                 <h2>Explore Airbnb + Fitness</h2>
                 <div className="explore__cards">
-                    <Link to={`${this.props.match.url}/homes`} className="explore__cards__item">
+                    <Link to={`/h?type=Homes`} className="explore__cards__item">
                         <div className="explore__cards__item__image img--house" />
                         <div className="explore__cards__item__text">
                             <p>Homes</p>
                         </div>
                     </Link >
-                    <Link to={`${this.props.match.url}/gyms`} className="explore__cards__item">
+                    <Link to={`${this.props.match.url}?type=Gyms`} className="explore__cards__item">
                         <div className="explore__cards__item__image img--gym" />
                         <div className="explore__cards__item__text">
                             <p>Fitness</p>

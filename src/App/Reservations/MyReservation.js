@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import './reservation.scss';
+import ModalBookGym from './ModalBookGym'
 
 class MyReservation extends Component {
 
@@ -10,8 +11,13 @@ class MyReservation extends Component {
             checkin: "",
             checkout: "",
             guests: 1,
-            error: ""
+            error: "",
+            onLoginClick: true
         }
+    }
+
+    handleLogin = () => {
+        this.setState({ onLoginClick: !this.state.onLoginClick })
     }
 
     componentDidMount() {
@@ -58,14 +64,14 @@ class MyReservation extends Component {
             <div className="reservation">
                 <h4>{this.props.currentUser.firstName}'s reservation</h4>
                 <form className="reservation__form" onSubmit={(event) => this.handleSubmit(event)}>
-                    <label>Dates</label>
+                    <label>{this.props.isHome ? "Dates" : "Your dates"}</label>
                     <h4 className="login__error">{this.state.error}</h4>
                     <div className="form--inline">
                         <input className="form--margin form__date" type="date" value={this.state.checkin} min="2019-02-08" onChange={this.handleChangeInitialDate} />
                         <p className="form--margin" >→</p>
                         <input className="form__date" type="date" value={this.state.checkout} min={this.state.checkin} onChange={this.handleChangeFinalDate} />
                     </div>
-                    <label>Guests</label>
+                    <label>{this.props.isHome ? "Guests" : "How many people?"}</label>
                     <div className="form--inline">
                         <button className="form--margin form__guest" onClick={this.handleMinus}><p className="form__guest__minus">-</p></button>
                         <p className="form--margin">{this.state.guests}</p>
@@ -76,6 +82,7 @@ class MyReservation extends Component {
                         <button className="form__button button" onClick={() => this.props.onDelete(this.props.reservation.id)}>Delete</button>
                     </div>
                 </form>
+                {this.state.onLoginClick ? <ModalBookGym reservation={this.props.reservation} onLogin={this.handleLogin} /> : null}
             </div >
         );
     }

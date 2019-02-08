@@ -22,6 +22,7 @@ class Login extends Component {
             this.setState({ error: "Insert user and password" })
         } else {
             this.props.onLogin(this.state.username, this.state.password);
+            if (!this.props.currentUser) this.setState({ error: "Incorrect password or email" })
         }
     }
 
@@ -35,7 +36,7 @@ class Login extends Component {
                     <input className="login__input" type="password" value={this.state.value} placeholder="Password" onChange={this.handleChangePassword} />
                     <input className="login__button" type="submit" value="Log in" />
                 </form>
-                <h4>Don’t have an Airbnb account? <button className="login__change button" onClick={this.props.onChange}>Sign up</button></h4>
+                <h4>Don’t have an Airbnb account? <button className="login__change" onClick={this.props.onChange}>Sign up</button></h4>
                 <Link to='/h' className="modal__visitor">Continue as visitor...</Link>
             </div >
         );
@@ -44,7 +45,9 @@ class Login extends Component {
 
 
 const mapStateToProps = (state) => {
-    return {};
+    return {
+        currentUser: state.currentUser
+    };
 }
 
 const mapDispatchToProps = (dispatch) => {

@@ -46,7 +46,7 @@ class Signup extends Component {
                     <input className="login__input" type="password" value={this.state.value} placeholder="Create Password" onChange={this.handleChangePassword} />
                     <input className="login__button" type="submit" value="Sign up" />
                 </form>
-                <h4>Already have an Airbnb account? <button className="login__change button" onClick={this.props.onChange}>Log in</button></h4>
+                <h4>Already have an Airbnb account? <button className="login__change" onClick={this.props.onChange}>Log in</button></h4>
                 <Link to='/h' className="modal__visitor">Continue as visitor...</Link>
             </div >
         );

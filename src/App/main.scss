@@ -1,13 +1,16 @@
-
+$font-stack: 'Raleway', sans-serif;
+$text-color: rgb(72, 72, 72);
+$button-color: rgb(231, 79, 79);
+$link-color: rgb(8, 136, 179);
 
 p, h1, h2, h3, h4, h5, ul, li, a, html, body {
   background-color: rgb(255, 255, 255);
-  font-family: 'Raleway', sans-serif;
+  font-family: $font-stack;
   text-decoration: none;
   margin: 0;
   padding: 0;
   list-style-type: none;
-  color: rgb(72, 72, 72);
+  color:  $text-color;
 }
 
 .header {
@@ -30,6 +33,7 @@ p, h1, h2, h3, h4, h5, ul, li, a, html, body {
 .searchbar {
   flex: 1;
 }
+
 
 .form__searchbar {
   display: flex;
@@ -54,8 +58,12 @@ p, h1, h2, h3, h4, h5, ul, li, a, html, body {
 
 .form__label {
   font-size: 1.2rem;
-  /*font-weight: bold;*/
   margin: 0 0.5rem 0 0.5rem;
+  color: gray;
+}
+
+img {
+  block-size: 2rem;
 }
 
 .navBar__menu__item {
@@ -66,7 +74,7 @@ p, h1, h2, h3, h4, h5, ul, li, a, html, body {
   margin: 0.2rem 0;
   cursor: pointer;
   font-size: 1rem;
-  background-color: rgb(231, 79, 79);
+  background-color:  $button-color;;
   color: whitesmoke;
   font-weight: bold;
 }

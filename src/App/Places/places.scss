@@ -1,5 +1,6 @@
+@import './src/App/main';
+
 .container{
-    //border: 2px solid red;
     margin: 3rem 4rem 0;
 }
   
@@ -17,6 +18,7 @@
     width: 23%;
     margin: 1rem 0 0 0;
     margin-right: 1rem;
+    
 }
 
 .home__title {
@@ -25,7 +27,7 @@
 
 .home__description {
     font-size: 0.9rem;
-    color: rgb(95, 95, 95);
+    color: $text-color;
 }
 
 .home__carousel { 
@@ -43,15 +45,26 @@
     transition: background-image 0.3s;
 }
 
+
+
+.myReservation {
+    border-bottom: 1px solid rgb(214, 214, 214);
+    margin-bottom: 1.5rem;
+}
+
+.myReservation .homes {
+    margin-bottom: 1.5rem;
+}
+
 .carousel__button {
     margin: 0 0.3rem 0;
     cursor: pointer;
     color: rgb(211, 209, 209);
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1360px) {
     .carousel__image {
-        height: 25rem;
+        height: 15rem;
      }
 }
   
@@ -76,12 +89,15 @@
   }
   
   /* ##Device = Most of the Smartphones Mobiles (Portrait) ---- ##Screen = B/w 320px to 479px */
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media (max-width: 480px) {
     .carousel__image {
        height: 15rem;
     }
     .home {
         width: 100%;
+    }
+    .container{
+        margin: 1rem 1.5rem 0;
     }
   }
   

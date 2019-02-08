@@ -1,3 +1,6 @@
+
+@import '../main.scss';
+
 .details__container {
     display: flex;
     justify-content: space-between;
@@ -29,6 +32,10 @@
     margin-bottom: 1rem;
 }
 
+.details .carousel__image {
+    height: 30rem;
+}
+
 .details__rating {
     margin-bottom: 0.5rem;
 }
@@ -53,8 +60,12 @@
     border: none;
     background-color: white;
     font-weight: bold;
-    color: rgb(8, 136, 179);
+    color: $link-color;
     font-size: 1rem;
+}
+
+.amenities__button:focus {
+    outline: none;
 }
 
 .amenities__list {
@@ -96,14 +107,14 @@
 
 .form__date {
     border: 1px solid rgb(219, 219, 219);
-    color: rgb(78, 78, 78);
+    color: $text-color;
     padding: 0.5rem 0 0.5rem 0.5rem;
     font-family: 'Raleway', sans-serif;
 }
 
 
 .form__button {
-    background-color: rgb(231, 79, 79);
+    background-color: $button-color;
     color: whitesmoke;
     font-weight: bold;
     padding: 0.5rem;
@@ -133,7 +144,7 @@
 }
 
 .form__guest__minus {
-    color:gray;
+    color: $text-color;
     position: relative;
     top: -0.5px;
     left: -0.5px;
@@ -148,8 +159,42 @@
     background: transparent
 }
 
+.gym__container{
+    padding: 1rem;
+}
+
+.gym__container__title {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.gym__container__description {
+    text-align: justify;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.gym__container__description .details__rating {
+    padding: 0.3rem 0.5rem 0 0;
+}
+
+.gym__container__link {
+    font-weight: bold;
+    font-size: 0.7rem;
+    color: $link-color;
+    padding-left: 0.5rem;
+}
+
   /* ##Device = Low Resolution Tablets, Mobiles (Landscape) ---- ##Screen = B/w 481px to 767px */
   @media (min-width: 481px) and (max-width: 767px) {    
+      
+    .details .carousel__image {
+        height: 15rem;
+    }
     .details__container {
         flex-direction: column;
     }
@@ -170,6 +215,20 @@
     .reservation {
         margin-top: 0.5rem;
         margin-bottom: 2.5rem;
+    }
+    
+    .details .carousel__image {
+        height: 12rem;
+    }
+  }
+
+  @media (max-width: 319px){
+      
+    .details__container {
+        flex-direction: column;
+    }
+    .details .carousel__image {
+        height: 15rem;
     }
   }
   
